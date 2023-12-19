@@ -1,0 +1,42 @@
+site_name: Documentació mapicgc-gl-js 
+site_url: https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc
+site_description: Documentació i exemples llibreria mapicgc-gl-js.
+site_author: geostart
+theme:
+  name: 'material'
+  language: 'ca'
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  highlightjs: true
+  suppress_nextprev: true
+  features:
+    - navigation.expand
+extra_css:
+  - 'stylesheets/extra.css'
+markdown_extensions:
+  - codehilite:
+      linenums: True
+  - admonition
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - footnotes
+  - attr_list
+repo_url: "https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc"
+
+nav:
+- Inici: index.md
+- 'Instal.lació':
+  - 1.1.Utilització via CDN: 1.1.Utilitzacio_via_cdn.md
+  - 1.2.Instal.lació via NPM: 1.2.Introduccion_github.md
+- 'Exemples bàsics':  
+  - 2.1.Veure mapa: 2.1.Veure_mapa.md
+- Preguntas Frecuentes: faq.md
+plugins:
+    - search
