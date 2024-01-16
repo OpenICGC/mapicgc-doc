@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/1.1.Inst_npm/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/1.2.Inst_cdn/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.1.Funcions_doc/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/faq/</loc>
+         <lastmod>2024-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
