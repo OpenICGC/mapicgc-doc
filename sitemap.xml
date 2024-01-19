@@ -2,27 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/1.1.Inst_npm/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/1.2.Inst_cdn/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.1.Funcions_doc/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.1.Exemples/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.1.Funcions_doc%20copy/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/3.1.Funcions_doc/</loc>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/faq/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
