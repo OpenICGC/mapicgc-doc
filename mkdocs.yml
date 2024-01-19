@@ -18,6 +18,7 @@ theme:
   suppress_nextprev: true
   features:
     - navigation.expand
+    - content.code.copy
 extra_css:
   - 'stylesheets/extra.css'
 markdown_extensions:
@@ -26,17 +27,32 @@ markdown_extensions:
   - admonition
   - pymdownx.magiclink
   - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - footnotes
+  - tables
   - attr_list
 repo_url: "https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc"
 
 nav:
-- Inici: index.md
-- 'Instal.lació':
-  - 1.1.Utilització via CDN: 1.1.Utilitzacio_via_cdn.md
-  - 1.2.Instal.lació via NPM: 1.2.Introduccion_github.md
-- 'Exemples bàsics':  
-  - 2.1.Veure mapa: 2.1.Veure_mapa.md
-- Preguntas Frecuentes: faq.md
+- 🏠 Inici: index.md
+
+- 'Instal·lació':
+  - 1.1. Via NPM: 1.1.Inst_npm.md  
+  - 1.2. Via CDN: 1.2.Inst_cdn.md
+
+- 'Exemples':  
+  - 2.1.Exemples: 2.1.Exemples.md
+
+- 'Documentació':  
+  - 3.1.Funcions: 3.1.Funcions_doc.md
+
+- Preguntes Freqüents: faq.md
+
 plugins:
     - search
