@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/3.1.Funcions_doc/">
       
       
-        <link rel="prev" href="../2.1.AddMarker/">
+        <link rel="prev" href="../2.10.AddLogo/">
       
       
         <link rel="next" href="../faq/">
@@ -406,11 +406,242 @@
   
   
     <li class="md-nav__item">
-      <a href="../2.1.AddMarker/" class="md-nav__link">
+      <a href="../2.1.0.Map/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    2.1.Afegir marker
+    2.1.0.Mapa
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1.1.AddTerrain/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.1.1.Afegir 3D
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1.2.AddICGCTerrain/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.1.2.Afegir 3D ICGC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.2.AddBasemap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.2.Afegir base
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.3.AddICGCimage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.3.Afegir capa d'imatge ICGC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.4.AddICGCfgb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.4.Afegir capa vector ICGC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.5.AddLayer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.5.Afegir capa
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.6.AddLayerTree/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.6.Afegir llistat de capes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.7.AddMarker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.7.Afegir marker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.8.AddControl/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.8.Afegir control
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.9.AddCompare/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.9.Afegir comparador
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.10.AddLogo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.10.Afegir logo
   </span>
   
 
@@ -524,6 +755,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#getstyle-c-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      getStyle() ΓçÆ Object
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ontype-func" class="md-nav__link">
     <span class="md-ellipsis">
       on(type, func)
@@ -542,9 +782,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addsourcesource" class="md-nav__link">
+  <a href="#addsourcesource-options" class="md-nav__link">
     <span class="md-ellipsis">
-      addSource(source)
+      addSource(source, options)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setstylestyle-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      setStyle(style, [options])
     </span>
   </a>
   
@@ -578,9 +827,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addcontrolcontrol" class="md-nav__link">
+  <a href="#addcontrolcontrol-position" class="md-nav__link">
     <span class="md-ellipsis">
-      addControl(control)
+      addControl(control, [position])
     </span>
   </a>
   
@@ -605,9 +854,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addgeolocatecontroloptions" class="md-nav__link">
+  <a href="#addgeolocatecontroloptions-position" class="md-nav__link">
     <span class="md-ellipsis">
-      addGeolocateControl(options)
+      addGeolocateControl(options, [position])
     </span>
   </a>
   
@@ -617,6 +866,24 @@
   <a href="#getbounds" class="md-nav__link">
     <span class="md-ellipsis">
       getBounds()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getcenter-c-lnglat" class="md-nav__link">
+    <span class="md-ellipsis">
+      getCenter() ΓçÆ LngLat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setterrainoptions-c-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      setTerrain(options) ΓçÆ Object
     </span>
   </a>
   
@@ -677,6 +944,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#removecontrolcontrol" class="md-nav__link">
+    <span class="md-ellipsis">
+      removeControl(control)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#removelayerlayerid" class="md-nav__link">
     <span class="md-ellipsis">
       removeLayer(layerId)
@@ -704,15 +980,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addlogooptions_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      addLogo(options)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#addbasemapsbaselayers" class="md-nav__link">
     <span class="md-ellipsis">
       addBasemaps(baseLayers)
@@ -722,9 +989,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addexportcontrol" class="md-nav__link">
+  <a href="#addexportcontroloptions-position" class="md-nav__link">
     <span class="md-ellipsis">
-      addExportControl()
+      addExportControl(options, [position])
     </span>
   </a>
   
@@ -732,15 +999,6 @@
       
         <li class="md-nav__item">
   <a href="#addmarkeroptions-c-object" class="md-nav__link">
-    <span class="md-ellipsis">
-      addMarker(options) ΓçÆ Object
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#addmarkeroptions-c-object_1" class="md-nav__link">
     <span class="md-ellipsis">
       addMarker(options) ΓçÆ Object
     </span>
@@ -776,27 +1034,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#createnavigationcontroloptions-c-object" class="md-nav__link">
+  <a href="#createnavigationcontroloptions-position-c-object" class="md-nav__link">
     <span class="md-ellipsis">
-      createNavigationControl(options) ΓçÆ Object
+      createNavigationControl(options, [position]) ΓçÆ Object
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#createnavigationcontroloptions-c-object_1" class="md-nav__link">
+  <a href="#addnavigationcontroloptions-position" class="md-nav__link">
     <span class="md-ellipsis">
-      createNavigationControl(options) ΓçÆ Object
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#addnavigationcontroloptions" class="md-nav__link">
-    <span class="md-ellipsis">
-      addNavigationControl(options)
+      addNavigationControl(options, [position])
     </span>
   </a>
   
@@ -830,20 +1079,68 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addvectorlayericgcname-year" class="md-nav__link">
+  <a href="#addfgblayericgcname-year" class="md-nav__link">
     <span class="md-ellipsis">
-      addVectorLayerICGC(name, year)
+      addFGBLayerICGC(name, year)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#addterrainresolution" class="md-nav__link">
+  <a href="#addterrainresolution-positionbutton" class="md-nav__link">
     <span class="md-ellipsis">
-      addTerrain(resolution)
+      addTerrain(resolution, [positionButton])
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparemaps" class="md-nav__link">
+    <span class="md-ellipsis">
+      CompareMaps
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CompareMaps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#new-comparemaps" class="md-nav__link">
+    <span class="md-ellipsis">
+      new CompareMaps()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapcomparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      MapComparison
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MapComparison">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#new-mapcomparisonmap1-map2-container-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      new MapComparison(map1, map2, container, options)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -917,6 +1214,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#getstyle-c-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      getStyle() ΓçÆ Object
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ontype-func" class="md-nav__link">
     <span class="md-ellipsis">
       on(type, func)
@@ -935,9 +1241,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addsourcesource" class="md-nav__link">
+  <a href="#addsourcesource-options" class="md-nav__link">
     <span class="md-ellipsis">
-      addSource(source)
+      addSource(source, options)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setstylestyle-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      setStyle(style, [options])
     </span>
   </a>
   
@@ -971,9 +1286,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addcontrolcontrol" class="md-nav__link">
+  <a href="#addcontrolcontrol-position" class="md-nav__link">
     <span class="md-ellipsis">
-      addControl(control)
+      addControl(control, [position])
     </span>
   </a>
   
@@ -998,9 +1313,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addgeolocatecontroloptions" class="md-nav__link">
+  <a href="#addgeolocatecontroloptions-position" class="md-nav__link">
     <span class="md-ellipsis">
-      addGeolocateControl(options)
+      addGeolocateControl(options, [position])
     </span>
   </a>
   
@@ -1010,6 +1325,24 @@
   <a href="#getbounds" class="md-nav__link">
     <span class="md-ellipsis">
       getBounds()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getcenter-c-lnglat" class="md-nav__link">
+    <span class="md-ellipsis">
+      getCenter() ΓçÆ LngLat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setterrainoptions-c-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      setTerrain(options) ΓçÆ Object
     </span>
   </a>
   
@@ -1070,6 +1403,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#removecontrolcontrol" class="md-nav__link">
+    <span class="md-ellipsis">
+      removeControl(control)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#removelayerlayerid" class="md-nav__link">
     <span class="md-ellipsis">
       removeLayer(layerId)
@@ -1097,15 +1439,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addlogooptions_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      addLogo(options)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#addbasemapsbaselayers" class="md-nav__link">
     <span class="md-ellipsis">
       addBasemaps(baseLayers)
@@ -1115,9 +1448,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addexportcontrol" class="md-nav__link">
+  <a href="#addexportcontroloptions-position" class="md-nav__link">
     <span class="md-ellipsis">
-      addExportControl()
+      addExportControl(options, [position])
     </span>
   </a>
   
@@ -1125,15 +1458,6 @@
       
         <li class="md-nav__item">
   <a href="#addmarkeroptions-c-object" class="md-nav__link">
-    <span class="md-ellipsis">
-      addMarker(options) ΓçÆ Object
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#addmarkeroptions-c-object_1" class="md-nav__link">
     <span class="md-ellipsis">
       addMarker(options) ΓçÆ Object
     </span>
@@ -1169,27 +1493,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#createnavigationcontroloptions-c-object" class="md-nav__link">
+  <a href="#createnavigationcontroloptions-position-c-object" class="md-nav__link">
     <span class="md-ellipsis">
-      createNavigationControl(options) ΓçÆ Object
+      createNavigationControl(options, [position]) ΓçÆ Object
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#createnavigationcontroloptions-c-object_1" class="md-nav__link">
+  <a href="#addnavigationcontroloptions-position" class="md-nav__link">
     <span class="md-ellipsis">
-      createNavigationControl(options) ΓçÆ Object
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#addnavigationcontroloptions" class="md-nav__link">
-    <span class="md-ellipsis">
-      addNavigationControl(options)
+      addNavigationControl(options, [position])
     </span>
   </a>
   
@@ -1223,20 +1538,68 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addvectorlayericgcname-year" class="md-nav__link">
+  <a href="#addfgblayericgcname-year" class="md-nav__link">
     <span class="md-ellipsis">
-      addVectorLayerICGC(name, year)
+      addFGBLayerICGC(name, year)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#addterrainresolution" class="md-nav__link">
+  <a href="#addterrainresolution-positionbutton" class="md-nav__link">
     <span class="md-ellipsis">
-      addTerrain(resolution)
+      addTerrain(resolution, [positionButton])
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparemaps" class="md-nav__link">
+    <span class="md-ellipsis">
+      CompareMaps
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CompareMaps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#new-comparemaps" class="md-nav__link">
+    <span class="md-ellipsis">
+      new CompareMaps()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mapcomparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      MapComparison
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MapComparison">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#new-mapcomparisonmap1-map2-container-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      new MapComparison(map1, map2, container, options)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1259,14 +1622,20 @@
 
 <h2 id="functions">Functions</h2>
 <dl>
+<dt><a href="#getStyle">getStyle()</a> ΓçÆ <code>Object</code></dt>
+<dd><p>Retrieves the current style of the map.</p>
+</dd>
 <dt><a href="#on">on(type, func)</a></dt>
 <dd><p>Adds an event listener to the map.</p>
 </dd>
 <dt><a href="#getSource">getSource(source)</a></dt>
 <dd><p>Retrieves the specified source from the map.</p>
 </dd>
-<dt><a href="#addSource">addSource(source)</a></dt>
+<dt><a href="#addSource">addSource(source, options)</a></dt>
 <dd><p>Adds a source to the map.</p>
+</dd>
+<dt><a href="#setStyle">setStyle(style, [options])</a></dt>
+<dd><p>Sets the style of the map.</p>
 </dd>
 <dt><a href="#getLayer">getLayer(layerId)</a></dt>
 <dd><p>Retrieves the layer with the specified ID from the map.</p>
@@ -1277,8 +1646,8 @@
 <dt><a href="#setLayoutProperty">setLayoutProperty(object)</a></dt>
 <dd><p>Sets layout property for a layer on the map.</p>
 </dd>
-<dt><a href="#addControl">addControl(control)</a></dt>
-<dd><p>Adds a control to the map.</p>
+<dt><a href="#addControl">addControl(control, [position])</a></dt>
+<dd><p>Adds a control to the map with the specified position.</p>
 </dd>
 <dt><a href="#getZoom">getZoom()</a> ΓçÆ <code>number</code></dt>
 <dd><p>Retrieves the current zoom level of the map.</p>
@@ -1286,11 +1655,17 @@
 <dt><a href="#addMouseCoordControl">addMouseCoordControl()</a></dt>
 <dd><p>Adds a mouse coordinate control to the map.</p>
 </dd>
-<dt><a href="#addGeolocateControl">addGeolocateControl(options)</a></dt>
+<dt><a href="#addGeolocateControl">addGeolocateControl(options, [position])</a></dt>
 <dd><p>Adds a geolocate control to the map.</p>
 </dd>
 <dt><a href="#getBounds">getBounds()</a></dt>
 <dd><p>Retrieves the bounds of the map.</p>
+</dd>
+<dt><a href="#getCenter">getCenter()</a> ΓçÆ <code>LngLat</code></dt>
+<dd><p>Retrieves the center coordinates of the map.</p>
+</dd>
+<dt><a href="#setTerrain">setTerrain(options)</a> ΓçÆ <code>Object</code></dt>
+<dd><p>Sets terrain options for the map.</p>
 </dd>
 <dt><a href="#getCanvas">getCanvas()</a></dt>
 <dd><p>Retrieves the canvas of the map.</p>
@@ -1310,6 +1685,9 @@
 <dt><a href="#addLayerWMS">addLayerWMS(layer)</a></dt>
 <dd><p>Adds a WMS layer to the map.</p>
 </dd>
+<dt><a href="#removeControl">removeControl(control)</a></dt>
+<dd><p>Removes a control from the map.</p>
+</dd>
 <dt><a href="#removeLayer">removeLayer(layerId)</a></dt>
 <dd><p>Removes a layer from the map.</p>
 </dd>
@@ -1319,17 +1697,11 @@
 <dt><a href="#addLogo">addLogo(options)</a></dt>
 <dd><p>Adds a logo to the map.</p>
 </dd>
-<dt><a href="#addLogo">addLogo(options)</a></dt>
-<dd><p>Adds a logo to the map.</p>
-</dd>
 <dt><a href="#addBasemaps">addBasemaps(baseLayers)</a></dt>
 <dd><p>Adds base layers to the map.</p>
 </dd>
-<dt><a href="#addExportControl">addExportControl()</a></dt>
-<dd><p>Adds an export control to the map.</p>
-</dd>
-<dt><a href="#addMarker">addMarker(options)</a> ΓçÆ <code>Object</code></dt>
-<dd><p>Adds a marker to the map.</p>
+<dt><a href="#addExportControl">addExportControl(options, [position])</a></dt>
+<dd><p>Adds an export control to the map with the provided options and position.</p>
 </dd>
 <dt><a href="#addMarker">addMarker(options)</a> ΓçÆ <code>Object</code></dt>
 <dd><p>Adds a marker to the map.</p>
@@ -1343,13 +1715,10 @@
 <dt><a href="#addLayerTree">addLayerTree(options)</a></dt>
 <dd><p>Adds a layer tree to the map.</p>
 </dd>
-<dt><a href="#createNavigationControl">createNavigationControl(options)</a> ΓçÆ <code>Object</code></dt>
+<dt><a href="#createNavigationControl">createNavigationControl(options, [position])</a> ΓçÆ <code>Object</code></dt>
 <dd><p>Creates a navigation control with the provided options.</p>
 </dd>
-<dt><a href="#createNavigationControl">createNavigationControl(options)</a> ΓçÆ <code>Object</code></dt>
-<dd><p>Creates a navigation control with the provided options.</p>
-</dd>
-<dt><a href="#addNavigationControl">addNavigationControl(options)</a></dt>
+<dt><a href="#addNavigationControl">addNavigationControl(options, [position])</a></dt>
 <dd><p>Adds a navigation control to the map with the provided options.</p>
 </dd>
 <dt><a href="#addAttributionControl">addAttributionControl(options)</a></dt>
@@ -1361,15 +1730,25 @@
 <dt><a href="#addImageLayerICGC">addImageLayerICGC(name, year)</a></dt>
 <dd><p>Adds an ICGC image layer to the map based on the specified name and year.</p>
 </dd>
-<dt><a href="#addVectorLayerICGC">addVectorLayerICGC(name, year)</a></dt>
+<dt><a href="#addFGBLayerICGC">addFGBLayerICGC(name, year)</a></dt>
 <dd><p>Adds an ICGC vector layer to the map based on the specified name and year.</p>
 </dd>
-<dt><a href="#addTerrain">addTerrain(resolution)</a></dt>
+<dt><a href="#addTerrain">addTerrain(resolution, [positionButton])</a></dt>
 <dd><p>Adds 3D terrain to the map using hillshade.</p>
 </dd>
 </dl>
-
-<p><a name="on"></a></p>
+<dl>
+<dt><a href="#CompareMaps">CompareMaps</a></dt>
+<dd></dd>
+<dt><a href="#MapComparison">MapComparison</a></dt>
+<dd></dd>
+</dl>
+<p><a name="getStyle"></a></p>
+<h2 id="getstyle-c-object">getStyle() ΓçÆ <code>Object</code></h2>
+<p>Retrieves the current style of the map.</p>
+<p><strong>Kind</strong>: global function<br />
+<strong>Returns</strong>: <code>Object</code> - - The current style of the map.<br />
+<a name="on"></a></p>
 <h2 id="ontype-func">on(type, func)</h2>
 <p>Adds an event listener to the map.</p>
 <p><strong>Kind</strong>: global function  </p>
@@ -1415,7 +1794,7 @@
 </tbody>
 </table>
 <p><a name="addSource"></a></p>
-<h2 id="addsourcesource">addSource(source)</h2>
+<h2 id="addsourcesource-options">addSource(source, options)</h2>
 <p>Adds a source to the map.</p>
 <p><strong>Kind</strong>: global function  </p>
 <table>
@@ -1431,6 +1810,36 @@
 <td>source</td>
 <td><code>string</code></td>
 <td>The ID of the source to add.</td>
+</tr>
+<tr>
+<td>options</td>
+<td><code>object</code></td>
+<td>The source options.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="setStyle"></a></p>
+<h2 id="setstylestyle-options">setStyle(style, [options])</h2>
+<p>Sets the style of the map.</p>
+<p><strong>Kind</strong>: global function  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>style</td>
+<td><code>string</code></td>
+<td>Name of the map style.</td>
+</tr>
+<tr>
+<td>[options]</td>
+<td><code>Object</code></td>
+<td>Options for setting the style.</td>
 </tr>
 </tbody>
 </table>
@@ -1495,14 +1904,15 @@
 </tbody>
 </table>
 <p><a name="addControl"></a></p>
-<h2 id="addcontrolcontrol">addControl(control)</h2>
-<p>Adds a control to the map.</p>
+<h2 id="addcontrolcontrol-position">addControl(control, [position])</h2>
+<p>Adds a control to the map with the specified position.</p>
 <p><strong>Kind</strong>: global function  </p>
 <table>
 <thead>
 <tr>
 <th>Param</th>
 <th>Type</th>
+<th>Default</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -1510,7 +1920,14 @@
 <tr>
 <td>control</td>
 <td><code>Object</code></td>
+<td></td>
 <td>The control to add.</td>
+</tr>
+<tr>
+<td>[position]</td>
+<td><code>string</code></td>
+<td><code>&quot;&#x27;top-right&#x27;&quot;</code></td>
+<td>Position to add the control on the map.</td>
 </tr>
 </tbody>
 </table>
@@ -1524,9 +1941,47 @@
 <p>Adds a mouse coordinate control to the map.</p>
 <p><strong>Kind</strong>: global function<br />
 <a name="addGeolocateControl"></a></p>
-<h2 id="addgeolocatecontroloptions">addGeolocateControl(options)</h2>
+<h2 id="addgeolocatecontroloptions-position">addGeolocateControl(options, [position])</h2>
 <p>Adds a geolocate control to the map.</p>
 <p><strong>Kind</strong>: global function  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td></td>
+<td>Options for the geolocate control.</td>
+</tr>
+<tr>
+<td>[position]</td>
+<td><code>string</code></td>
+<td><code>&quot;&#x27;top-right&#x27;&quot;</code></td>
+<td>Position to add the control on the map.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="getBounds"></a></p>
+<h2 id="getbounds">getBounds()</h2>
+<p>Retrieves the bounds of the map.</p>
+<p><strong>Kind</strong>: global function<br />
+<a name="getCenter"></a></p>
+<h2 id="getcenter-c-lnglat">getCenter() ΓçÆ <code>LngLat</code></h2>
+<p>Retrieves the center coordinates of the map.</p>
+<p><strong>Kind</strong>: global function<br />
+<strong>Returns</strong>: <code>LngLat</code> - - The center coordinates of the map.<br />
+<a name="setTerrain"></a></p>
+<h2 id="setterrainoptions-c-object">setTerrain(options) ΓçÆ <code>Object</code></h2>
+<p>Sets terrain options for the map.</p>
+<p><strong>Kind</strong>: global function<br />
+<strong>Returns</strong>: <code>Object</code> - - Result of setting the terrain options.  </p>
 <table>
 <thead>
 <tr>
@@ -1539,15 +1994,11 @@
 <tr>
 <td>options</td>
 <td><code>Object</code></td>
-<td>Options for the geolocate control.</td>
+<td>Options for the terrain.</td>
 </tr>
 </tbody>
 </table>
-<p><a name="getBounds"></a></p>
-<h2 id="getbounds">getBounds()</h2>
-<p>Retrieves the bounds of the map.</p>
-<p><strong>Kind</strong>: global function<br />
-<a name="getCanvas"></a></p>
+<p><a name="getCanvas"></a></p>
 <h2 id="getcanvas">getCanvas()</h2>
 <p>Retrieves the canvas of the map.</p>
 <p><strong>Kind</strong>: global function<br />
@@ -1726,6 +2177,26 @@
 </tr>
 </tbody>
 </table>
+<p><a name="removeControl"></a></p>
+<h2 id="removecontrolcontrol">removeControl(control)</h2>
+<p>Removes a control from the map.</p>
+<p><strong>Kind</strong>: global function  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>control</td>
+<td><code>Object</code></td>
+<td>The control to remove.</td>
+</tr>
+</tbody>
+</table>
 <p><a name="removeLayer"></a></p>
 <h2 id="removelayerlayerid">removeLayer(layerId)</h2>
 <p>Removes a layer from the map.</p>
@@ -1801,41 +2272,6 @@
 </tr>
 </tbody>
 </table>
-<p><a name="addLogo"></a></p>
-<h2 id="addlogooptions_1">addLogo(options)</h2>
-<p>Adds a logo to the map.</p>
-<p><strong>Kind</strong>: global function  </p>
-<table>
-<thead>
-<tr>
-<th>Param</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>options</td>
-<td><code>Object</code></td>
-<td>Options for the logo to add.</td>
-</tr>
-<tr>
-<td>options.id</td>
-<td><code>string</code></td>
-<td>Unique identifier for the logo.</td>
-</tr>
-<tr>
-<td>options.url</td>
-<td><code>string</code></td>
-<td>URL of the logo image.</td>
-</tr>
-<tr>
-<td>options.href</td>
-<td><code>string</code></td>
-<td>URL to navigate to when the logo is clicked.</td>
-</tr>
-</tbody>
-</table>
 <p><a name="addBasemaps"></a></p>
 <h2 id="addbasemapsbaselayers">addBasemaps(baseLayers)</h2>
 <p>Adds base layers to the map.</p>
@@ -1872,14 +2308,9 @@
 </tbody>
 </table>
 <p><a name="addExportControl"></a></p>
-<h2 id="addexportcontrol">addExportControl()</h2>
-<p>Adds an export control to the map.</p>
-<p><strong>Kind</strong>: global function<br />
-<a name="addMarker"></a></p>
-<h2 id="addmarkeroptions-c-object">addMarker(options) ΓçÆ <code>Object</code></h2>
-<p>Adds a marker to the map.</p>
-<p><strong>Kind</strong>: global function<br />
-<strong>Returns</strong>: <code>Object</code> - - Instance of the added marker.  </p>
+<h2 id="addexportcontroloptions-position">addExportControl(options, [position])</h2>
+<p>Adds an export control to the map with the provided options and position.</p>
+<p><strong>Kind</strong>: global function  </p>
 <table>
 <thead>
 <tr>
@@ -1891,33 +2322,18 @@
 <tbody>
 <tr>
 <td>options</td>
-<td><code>Object</code></td>
-<td>Options for the marker to add.</td>
+<td><code>Object</code> | <code>string</code></td>
+<td>Options for the export control or position if provided as a string.</td>
 </tr>
 <tr>
-<td>options.text</td>
+<td>[position]</td>
 <td><code>string</code></td>
-<td>Text content for the marker popup.</td>
-</tr>
-<tr>
-<td>options.options</td>
-<td><code>Object</code></td>
-<td>Marker options.</td>
-</tr>
-<tr>
-<td>options.coord</td>
-<td><code>LngLatLike</code></td>
-<td>Coordinates for placing the marker.</td>
-</tr>
-<tr>
-<td>options.textOffset</td>
-<td><code>Object</code></td>
-<td>Text offset for the marker popup.</td>
+<td>Position to place the export control (e.g., 'top-right').</td>
 </tr>
 </tbody>
 </table>
 <p><a name="addMarker"></a></p>
-<h2 id="addmarkeroptions-c-object_1">addMarker(options) ΓçÆ <code>Object</code></h2>
+<h2 id="addmarkeroptions-c-object">addMarker(options) ΓçÆ <code>Object</code></h2>
 <p>Adds a marker to the map.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>Object</code> - - Instance of the added marker.  </p>
@@ -2028,7 +2444,7 @@
 </tbody>
 </table>
 <p><a name="createNavigationControl"></a></p>
-<h2 id="createnavigationcontroloptions-c-object">createNavigationControl(options) ΓçÆ <code>Object</code></h2>
+<h2 id="createnavigationcontroloptions-position-c-object">createNavigationControl(options, [position]) ΓçÆ <code>Object</code></h2>
 <p>Creates a navigation control with the provided options.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>Object</code> - - Instance of the created navigation control.  </p>
@@ -2037,6 +2453,7 @@
 <tr>
 <th>Param</th>
 <th>Type</th>
+<th>Default</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -2044,33 +2461,19 @@
 <tr>
 <td>options</td>
 <td><code>Object</code></td>
+<td></td>
 <td>Options for the navigation control.</td>
 </tr>
-</tbody>
-</table>
-<p><a name="createNavigationControl"></a></p>
-<h2 id="createnavigationcontroloptions-c-object_1">createNavigationControl(options) ΓçÆ <code>Object</code></h2>
-<p>Creates a navigation control with the provided options.</p>
-<p><strong>Kind</strong>: global function<br />
-<strong>Returns</strong>: <code>Object</code> - - Instance of the created navigation control.  </p>
-<table>
-<thead>
 <tr>
-<th>Param</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>options</td>
-<td><code>Object</code></td>
-<td>Options for the navigation control.</td>
+<td>[position]</td>
+<td><code>string</code></td>
+<td><code>&quot;&#x27;top-right&#x27;&quot;</code></td>
+<td>Position to add the control on the map.</td>
 </tr>
 </tbody>
 </table>
 <p><a name="addNavigationControl"></a></p>
-<h2 id="addnavigationcontroloptions">addNavigationControl(options)</h2>
+<h2 id="addnavigationcontroloptions-position">addNavigationControl(options, [position])</h2>
 <p>Adds a navigation control to the map with the provided options.</p>
 <p><strong>Kind</strong>: global function  </p>
 <table>
@@ -2078,6 +2481,7 @@
 <tr>
 <th>Param</th>
 <th>Type</th>
+<th>Default</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -2085,7 +2489,14 @@
 <tr>
 <td>options</td>
 <td><code>Object</code></td>
+<td></td>
 <td>Options for the navigation control.</td>
+</tr>
+<tr>
+<td>[position]</td>
+<td><code>string</code></td>
+<td><code>&quot;&#x27;top-right&#x27;&quot;</code></td>
+<td>Position to add the control on the map.</td>
 </tr>
 </tbody>
 </table>
@@ -2155,8 +2566,8 @@
 </tr>
 </tbody>
 </table>
-<p><a name="addVectorLayerICGC"></a></p>
-<h2 id="addvectorlayericgcname-year">addVectorLayerICGC(name, year)</h2>
+<p><a name="addFGBLayerICGC"></a></p>
+<h2 id="addfgblayericgcname-year">addFGBLayerICGC(name, year)</h2>
 <p>Adds an ICGC vector layer to the map based on the specified name and year.</p>
 <p><strong>Kind</strong>: global function  </p>
 <table>
@@ -2181,9 +2592,45 @@
 </tbody>
 </table>
 <p><a name="addTerrain"></a></p>
-<h2 id="addterrainresolution">addTerrain(resolution)</h2>
+<h2 id="addterrainresolution-positionbutton">addTerrain(resolution, [positionButton])</h2>
 <p>Adds 3D terrain to the map using hillshade.</p>
 <p><strong>Kind</strong>: global function  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>resolution</td>
+<td><code>string</code></td>
+<td></td>
+<td>resolution of the terrain data: 2m or 5m.</td>
+</tr>
+<tr>
+<td>[positionButton]</td>
+<td><code>string</code></td>
+<td><code>&quot;&#x27;top-right&#x27;&quot;</code></td>
+<td>Position to add the button on the map.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="CompareMaps"></a></p>
+<h2 id="comparemaps">CompareMaps</h2>
+<p><strong>Kind</strong>: global class<br />
+<a name="new_CompareMaps_new"></a></p>
+<h3 id="new-comparemaps">new CompareMaps()</h3>
+<p>Class for comparing two maps.</p>
+<p><a name="MapComparison"></a></p>
+<h2 id="mapcomparison">MapComparison</h2>
+<p><strong>Kind</strong>: global class<br />
+<a name="new_MapComparison_new"></a></p>
+<h3 id="new-mapcomparisonmap1-map2-container-options">new MapComparison(map1, map2, container, options)</h3>
+<p>Constructor for the map comparison class.</p>
 <table>
 <thead>
 <tr>
@@ -2194,9 +2641,24 @@
 </thead>
 <tbody>
 <tr>
-<td>resolution</td>
+<td>map1</td>
+<td><code>Object</code></td>
+<td>The first map object to compare.</td>
+</tr>
+<tr>
+<td>map2</td>
+<td><code>Object</code></td>
+<td>The second map object to compare.</td>
+</tr>
+<tr>
+<td>container</td>
 <td><code>string</code></td>
-<td>resolution of the terrain data: 2m or 5m.</td>
+<td>The HTML container element ID for displaying the comparison.</td>
+</tr>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td>Additional options for map comparison (if needed).</td>
 </tr>
 </tbody>
 </table>
