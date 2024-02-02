@@ -2,87 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/1.1.Inst_npm/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/1.2.Inst_cdn/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.1.0.Map/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.1.1.AddTerrain/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.1.2.AddICGCTerrain/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.10.AddLogo/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.11.FetchData/</loc>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.2.AddBasemap/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.3.AddICGCimage/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.3.AddImageLayerICGC/</loc>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.4.AddICGCfgb/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.4.AddVectorLayerICGC/</loc>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.5.AddLayer/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.6.AddLayerTree/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.7.AddMarker/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.8.AddControl/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.9.AddCompare/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/3.1.Funcions_doc/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/faq/</loc>
-         <lastmod>2024-02-01</lastmod>
+         <lastmod>2024-02-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
