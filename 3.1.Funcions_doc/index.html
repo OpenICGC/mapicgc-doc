@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/3.1.Funcions_doc/">
       
       
-        <link rel="prev" href="../2.10.AddLogo/">
+        <link rel="prev" href="../2.11.FetchData/">
       
       
       
@@ -546,7 +546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../2.3.AddICGCimage/" class="md-nav__link">
+      <a href="../2.3.AddImageLayerICGC/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -567,7 +567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../2.4.AddICGCfgb/" class="md-nav__link">
+      <a href="../2.4.AddVectorLayerICGC/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -698,6 +698,27 @@
   
   <span class="md-ellipsis">
     2.10.Afegir logo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.11.FetchData/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.11.Fetch dades
   </span>
   
 
@@ -1228,18 +1249,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addfgblayericgcname-year" class="md-nav__link">
+  <a href="#addvectorlayericgcname-year" class="md-nav__link">
     <span class="md-ellipsis">
-      addFGBLayerICGC(name, year)
+      addVectorLayerICGC(name, year)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#addterrainresolution-positionbutton" class="md-nav__link">
+  <a href="#addterrainicgcresolution-positionbutton" class="md-nav__link">
     <span class="md-ellipsis">
-      addTerrain(resolution, [positionButton])
+      addTerrainICGC(resolution, [positionButton])
     </span>
   </a>
   
@@ -1709,18 +1730,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addfgblayericgcname-year" class="md-nav__link">
+  <a href="#addvectorlayericgcname-year" class="md-nav__link">
     <span class="md-ellipsis">
-      addFGBLayerICGC(name, year)
+      addVectorLayerICGC(name, year)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#addterrainresolution-positionbutton" class="md-nav__link">
+  <a href="#addterrainicgcresolution-positionbutton" class="md-nav__link">
     <span class="md-ellipsis">
-      addTerrain(resolution, [positionButton])
+      addTerrainICGC(resolution, [positionButton])
     </span>
   </a>
   
@@ -1745,16 +1766,16 @@
 
 <h2 id="functions">Functions</h2>
 <dl>
-<dt><a href="#getStyle">getStyle()</a></dt>
+<dt><a href="#getStyle">getStyle()</a> </dt>
 <dd><p>Retrieves the current style of the map.</p>
 </dd>
-<dt><a href="#getConfigStyles">getConfigStyles()</a> </dt>
+<dt><a href="#getConfigStyles">getConfigStyles()</a></dt>
 <dd><p>Retrieves the available base styles from default options.</p>
 </dd>
 <dt><a href="#getConfigImageLayers">getConfigImageLayers()</a> </dt>
 <dd><p>Retrieves the available image layers from default options.</p>
 </dd>
-<dt><a href="#getConfigVectorLayers">getConfigVectorLayers()</a></dt>
+<dt><a href="#getConfigVectorLayers">getConfigVectorLayers()</a> </dt>
 <dd><p>Retrieves the available vector layers from default options.</p>
 </dd>
 <dt><a href="#fetchData">fetchData(url, name, options)</a></dt>
@@ -1802,7 +1823,7 @@
 <dt><a href="#getBounds">getBounds()</a></dt>
 <dd><p>Retrieves the bounds of the map.</p>
 </dd>
-<dt><a href="#getCenter">getCenter()</a></dt>
+<dt><a href="#getCenter">getCenter()</a> </dt>
 <dd><p>Retrieves the center coordinates of the map.</p>
 </dd>
 <dt><a href="#setTerrain">setTerrain(options)</a> </dt>
@@ -1853,10 +1874,10 @@
 <dt><a href="#addExportControl">addExportControl(options, [position])</a></dt>
 <dd><p>Adds an export control to the map with the provided options and position.</p>
 </dd>
-<dt><a href="#addMarker">addMarker(options)</a> </dt>
+<dt><a href="#addMarker">addMarker(options)</a></dt>
 <dd><p>Adds a marker to the map.</p>
 </dd>
-<dt><a href="#addPopup">addPopup(options)</a></dt>
+<dt><a href="#addPopup">addPopup(options)</a> </dt>
 <dd><p>Adds a popup to the map.</p>
 </dd>
 <dt><a href="#addFullScreen">addFullScreen()</a></dt>
@@ -1877,16 +1898,16 @@
 <dt><a href="#addAttributionControl">addAttributionControl(options)</a></dt>
 <dd><p>Adds an attribution control to the map with the provided options.</p>
 </dd>
-<dt><a href="#_dealStyleMaps">_dealStyleMaps(name)</a></dt>
+<dt><a href="#_dealStyleMaps">_dealStyleMaps(name)</a> </dt>
 <dd><p>Internal method to handle map styles.</p>
 </dd>
 <dt><a href="#addImageLayerICGC">addImageLayerICGC(name, year)</a></dt>
 <dd><p>Adds an ICGC image layer to the map based on the specified name and year.</p>
 </dd>
-<dt><a href="#addFGBLayerICGC">addFGBLayerICGC(name, year)</a></dt>
+<dt><a href="#addVectorLayerICGC">addVectorLayerICGC(name, year)</a></dt>
 <dd><p>Adds an ICGC vector layer to the map based on the specified name and year.</p>
 </dd>
-<dt><a href="#addTerrain">addTerrain(resolution, [positionButton])</a></dt>
+<dt><a href="#addTerrainICGC">addTerrainICGC(resolution, [positionButton])</a></dt>
 <dd><p>Adds 3D terrain to the map using hillshade.</p>
 </dd>
 </dl>
@@ -2877,8 +2898,8 @@
 </tr>
 </tbody>
 </table>
-<p><a name="addFGBLayerICGC"></a></p>
-<h2 id="addfgblayericgcname-year">addFGBLayerICGC(name, year)</h2>
+<p><a name="addVectorLayerICGC"></a></p>
+<h2 id="addvectorlayericgcname-year">addVectorLayerICGC(name, year)</h2>
 <p>Adds an ICGC vector layer to the map based on the specified name and year.</p>
 <p><strong>Kind</strong>: global function  </p>
 <table>
@@ -2902,8 +2923,8 @@
 </tr>
 </tbody>
 </table>
-<p><a name="addTerrain"></a></p>
-<h2 id="addterrainresolution-positionbutton">addTerrain(resolution, [positionButton])</h2>
+<p><a name="addTerrainICGC"></a></p>
+<h2 id="addterrainicgcresolution-positionbutton">addTerrainICGC(resolution, [positionButton])</h2>
 <p>Adds 3D terrain to the map using hillshade.</p>
 <p><strong>Kind</strong>: global function  </p>
 <table>
