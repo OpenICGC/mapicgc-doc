@@ -522,7 +522,7 @@ function addPopupToMapEdificios(nombreCapa) {
 * LLamamos a la función de desde el evento `load` del mapa
 
 
-```html hl_lines="35"
+```html 
     <html>
 
     <head>

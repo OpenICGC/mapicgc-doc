@@ -6,7 +6,7 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src="https://betaserver.icgc.cat/cdn/mapicgc-gl-js/mapicgc-gl.js"></script>
     <link href="https://betaserver.icgc.cat/cdn/mapicgc-gl-js/mapicgc-gl.css" rel="stylesheet" />
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  
     <style>
         body {
             margin: 0;
@@ -61,16 +61,16 @@
 
 <body>
     <div id='menu'>
-        <input id='topografic' type='radio' name='rtoggle' value='topografic' checked='checked'>
+        <input id='topografic' type='radio' name='rtoggle' value='Style.Topografic' checked='checked'>
         <label for='topografic'>Mapa estàndard</label><br>
 
-        <input id='ortofoto' type='radio' name='rtoggle' value='ortofoto'>
+        <input id='ortofoto' type='radio' name='rtoggle' value='Style.Ortofoto'>
         <label for='ortofoto'>Ortofoto</label><br>
 
-        <input id='limits' type='radio' name='rtoggle' value='limits'>
+        <input id='limits' type='radio' name='rtoggle' value='Style.Limits'>
         <label for='limits'>Limits</label><br>
 
-        <input id='fosc' type='radio' name='rtoggle' value='icgc_xarxa_viaria_estandard'>
+        <input id='fosc' type='radio' name='rtoggle' value='Style.Fosc'>
         <label for='fosc'>fosc</label>
     </div>
    
@@ -79,7 +79,7 @@
 console.info(window);
         const map = new mapicgcgl.Map({
             container: 'map',
-            style: 'topografic',
+            style: 'Style.Topografic',
             center: [1.1464, 41.706],
             zoom: 7.4,
             maxZoom: 14,
