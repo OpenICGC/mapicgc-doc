@@ -1,6 +1,7 @@
 #  🗺  mapicgc-gl-js
 
-LLibreria de mapes ICGC. Envoltori de MaplibreGL
+La biblioteca MapICGC GL JS, creada com a envoltori de MapLibreGL, ofereix noves funcions específiques en un entorn ICGC. Simplifica el desenvolupament integrant característiques com tessel·les vectorials i imatges satel·litals, i incorporar de manera inmediata estils, terrenys i dades ICGC. 
+Proporciona funcions documentades per la  creació d'un visor complet i totalment personalitzable.
 
 #### Temari
 
