@@ -835,36 +835,54 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#getstyle" class="md-nav__link">
+  <a href="#getstyle-object" class="md-nav__link">
     <span class="md-ellipsis">
-      getStyle()
+      getStyle() → Object
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getconfigstyles" class="md-nav__link">
+  <a href="#getconfigstyles-array" class="md-nav__link">
     <span class="md-ellipsis">
-      getConfigStyles()
+      getConfigStyles() → Array
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getconfigimagelayers" class="md-nav__link">
+  <a href="#getconfigwmslayers-array" class="md-nav__link">
     <span class="md-ellipsis">
-      getConfigImageLayers()
+      getConfigWMSLayers() → Array
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getconfigvectorlayers" class="md-nav__link">
+  <a href="#getconfigortolayers-array" class="md-nav__link">
     <span class="md-ellipsis">
-      getConfigVectorLayers()
+      getConfigOrtoLayers() → Array
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getconfigvectorlayers-array" class="md-nav__link">
+    <span class="md-ellipsis">
+      getConfigVectorLayers() → Array
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getconfigvectoradminlayers-array" class="md-nav__link">
+    <span class="md-ellipsis">
+      getConfigVectorAdminLayers() → Array
     </span>
   </a>
   
@@ -970,9 +988,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#getzoom" class="md-nav__link">
+  <a href="#getzoom-number" class="md-nav__link">
     <span class="md-ellipsis">
-      getZoom()
+      getZoom() → number
     </span>
   </a>
   
@@ -1006,18 +1024,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#getcenter" class="md-nav__link">
+  <a href="#getcenter-lnglat" class="md-nav__link">
     <span class="md-ellipsis">
-      getCenter()
+      getCenter() → LngLat
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#setterrainoptions" class="md-nav__link">
+  <a href="#setterrainoptions-object" class="md-nav__link">
     <span class="md-ellipsis">
-      setTerrain(options)
+      setTerrain(options) → Object
     </span>
   </a>
   
@@ -1052,15 +1070,6 @@
       
         <li class="md-nav__item">
   <a href="#addlayergeojsonlayer" class="md-nav__link">
-    <span class="md-ellipsis">
-      addLayerGeoJSON(layer)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#addlayergeojsonlayer_1" class="md-nav__link">
     <span class="md-ellipsis">
       addLayerGeoJSON(layer)
     </span>
@@ -1114,6 +1123,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#addbasemapsicgcbaselayers" class="md-nav__link">
+    <span class="md-ellipsis">
+      addBasemapsICGC(baseLayers)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#addbasemapsbaselayers" class="md-nav__link">
     <span class="md-ellipsis">
       addBasemaps(baseLayers)
@@ -1159,18 +1177,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addmarkeroptions" class="md-nav__link">
+  <a href="#addmarkeroptions-object" class="md-nav__link">
     <span class="md-ellipsis">
-      addMarker(options)
+      addMarker(options) → Object
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#addpopupoptions" class="md-nav__link">
+  <a href="#addpopupoptions-object" class="md-nav__link">
     <span class="md-ellipsis">
-      addPopup(options)
+      addPopup(options) → Object
     </span>
   </a>
   
@@ -1204,9 +1222,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#createnavigationcontroloptions-position" class="md-nav__link">
+  <a href="#createnavigationcontroloptions-position-object" class="md-nav__link">
     <span class="md-ellipsis">
-      createNavigationControl(options, [position])
+      createNavigationControl(options, [position]) → Object
     </span>
   </a>
   
@@ -1231,9 +1249,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_dealstylemapsname" class="md-nav__link">
+  <a href="#_dealstylemapsname-string" class="md-nav__link">
     <span class="md-ellipsis">
-      _dealStyleMaps(name)
+      _dealStyleMaps(name) → string
     </span>
   </a>
   
@@ -1249,9 +1267,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addvectorlayericgcname-year" class="md-nav__link">
+  <a href="#addvectorlayericgcurl-year" class="md-nav__link">
     <span class="md-ellipsis">
-      addVectorLayerICGC(name, year)
+      addVectorLayerICGC(url, year)
     </span>
   </a>
   
@@ -1316,36 +1334,54 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#getstyle" class="md-nav__link">
+  <a href="#getstyle-object" class="md-nav__link">
     <span class="md-ellipsis">
-      getStyle()
+      getStyle() → Object
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getconfigstyles" class="md-nav__link">
+  <a href="#getconfigstyles-array" class="md-nav__link">
     <span class="md-ellipsis">
-      getConfigStyles()
+      getConfigStyles() → Array
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getconfigimagelayers" class="md-nav__link">
+  <a href="#getconfigwmslayers-array" class="md-nav__link">
     <span class="md-ellipsis">
-      getConfigImageLayers()
+      getConfigWMSLayers() → Array
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getconfigvectorlayers" class="md-nav__link">
+  <a href="#getconfigortolayers-array" class="md-nav__link">
     <span class="md-ellipsis">
-      getConfigVectorLayers()
+      getConfigOrtoLayers() → Array
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getconfigvectorlayers-array" class="md-nav__link">
+    <span class="md-ellipsis">
+      getConfigVectorLayers() → Array
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getconfigvectoradminlayers-array" class="md-nav__link">
+    <span class="md-ellipsis">
+      getConfigVectorAdminLayers() → Array
     </span>
   </a>
   
@@ -1451,9 +1487,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#getzoom" class="md-nav__link">
+  <a href="#getzoom-number" class="md-nav__link">
     <span class="md-ellipsis">
-      getZoom()
+      getZoom() → number
     </span>
   </a>
   
@@ -1487,18 +1523,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#getcenter" class="md-nav__link">
+  <a href="#getcenter-lnglat" class="md-nav__link">
     <span class="md-ellipsis">
-      getCenter()
+      getCenter() → LngLat
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#setterrainoptions" class="md-nav__link">
+  <a href="#setterrainoptions-object" class="md-nav__link">
     <span class="md-ellipsis">
-      setTerrain(options)
+      setTerrain(options) → Object
     </span>
   </a>
   
@@ -1533,15 +1569,6 @@
       
         <li class="md-nav__item">
   <a href="#addlayergeojsonlayer" class="md-nav__link">
-    <span class="md-ellipsis">
-      addLayerGeoJSON(layer)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#addlayergeojsonlayer_1" class="md-nav__link">
     <span class="md-ellipsis">
       addLayerGeoJSON(layer)
     </span>
@@ -1595,6 +1622,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#addbasemapsicgcbaselayers" class="md-nav__link">
+    <span class="md-ellipsis">
+      addBasemapsICGC(baseLayers)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#addbasemapsbaselayers" class="md-nav__link">
     <span class="md-ellipsis">
       addBasemaps(baseLayers)
@@ -1640,18 +1676,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addmarkeroptions" class="md-nav__link">
+  <a href="#addmarkeroptions-object" class="md-nav__link">
     <span class="md-ellipsis">
-      addMarker(options)
+      addMarker(options) → Object
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#addpopupoptions" class="md-nav__link">
+  <a href="#addpopupoptions-object" class="md-nav__link">
     <span class="md-ellipsis">
-      addPopup(options)
+      addPopup(options) → Object
     </span>
   </a>
   
@@ -1685,9 +1721,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#createnavigationcontroloptions-position" class="md-nav__link">
+  <a href="#createnavigationcontroloptions-position-object" class="md-nav__link">
     <span class="md-ellipsis">
-      createNavigationControl(options, [position])
+      createNavigationControl(options, [position]) → Object
     </span>
   </a>
   
@@ -1712,9 +1748,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_dealstylemapsname" class="md-nav__link">
+  <a href="#_dealstylemapsname-string" class="md-nav__link">
     <span class="md-ellipsis">
-      _dealStyleMaps(name)
+      _dealStyleMaps(name) → string
     </span>
   </a>
   
@@ -1730,9 +1766,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addvectorlayericgcname-year" class="md-nav__link">
+  <a href="#addvectorlayericgcurl-year" class="md-nav__link">
     <span class="md-ellipsis">
-      addVectorLayerICGC(name, year)
+      addVectorLayerICGC(url, year)
     </span>
   </a>
   
@@ -1766,16 +1802,22 @@
 
 <h2 id="functions">Functions</h2>
 <dl>
-<dt><a href="#getStyle">getStyle()</a> </dt>
+<dt><a href="#getStyle">getStyle()</a> → <code>Object</code></dt>
 <dd><p>Retrieves the current style of the map.</p>
 </dd>
-<dt><a href="#getConfigStyles">getConfigStyles()</a></dt>
+<dt><a href="#getConfigStyles">getConfigStyles()</a> → <code>Array</code></dt>
 <dd><p>Retrieves the available base styles from default options.</p>
 </dd>
-<dt><a href="#getConfigImageLayers">getConfigImageLayers()</a> </dt>
-<dd><p>Retrieves the available image layers from default options.</p>
+<dt><a href="#getConfigWMSLayers">getConfigWMSLayers()</a> → <code>Array</code></dt>
+<dd><p>Retrieves the available WMS image layers from default options.</p>
 </dd>
-<dt><a href="#getConfigVectorLayers">getConfigVectorLayers()</a> </dt>
+<dt><a href="#getConfigOrtoLayers">getConfigOrtoLayers()</a> → <code>Array</code></dt>
+<dd><p>Retrieves the available orto image layers from default options.</p>
+</dd>
+<dt><a href="#getConfigVectorLayers">getConfigVectorLayers()</a> → <code>Array</code></dt>
+<dd><p>Retrieves the available vector layers from default options.</p>
+</dd>
+<dt><a href="#getConfigVectorAdminLayers">getConfigVectorAdminLayers()</a> → <code>Array</code></dt>
 <dd><p>Retrieves the available vector layers from default options.</p>
 </dd>
 <dt><a href="#fetchData">fetchData(url, name, options)</a></dt>
@@ -1811,7 +1853,7 @@
 <dt><a href="#addControl">addControl(control, [position])</a></dt>
 <dd><p>Adds a control to the map with the specified position.</p>
 </dd>
-<dt><a href="#getZoom">getZoom()</a> </dt>
+<dt><a href="#getZoom">getZoom()</a> → <code>number</code></dt>
 <dd><p>Retrieves the current zoom level of the map.</p>
 </dd>
 <dt><a href="#addMouseCoordControl">addMouseCoordControl()</a></dt>
@@ -1823,10 +1865,10 @@
 <dt><a href="#getBounds">getBounds()</a></dt>
 <dd><p>Retrieves the bounds of the map.</p>
 </dd>
-<dt><a href="#getCenter">getCenter()</a> </dt>
+<dt><a href="#getCenter">getCenter()</a> → <code>LngLat</code></dt>
 <dd><p>Retrieves the center coordinates of the map.</p>
 </dd>
-<dt><a href="#setTerrain">setTerrain(options)</a> </dt>
+<dt><a href="#setTerrain">setTerrain(options)</a> → <code>Object</code></dt>
 <dd><p>Sets terrain options for the map.</p>
 </dd>
 <dt><a href="#getCanvas">getCanvas()</a></dt>
@@ -1837,9 +1879,6 @@
 </dd>
 <dt><a href="#addLayer">addLayer(layer)</a></dt>
 <dd><p>Adds a layer to the map.</p>
-</dd>
-<dt><a href="#addLayerGeoJSON">addLayerGeoJSON(layer)</a></dt>
-<dd><p>Adds a GeoJSON layer to the map.</p>
 </dd>
 <dt><a href="#addLayerGeoJSON">addLayerGeoJSON(layer)</a></dt>
 <dd><p>Adds a GeoJSON layer to the map.</p>
@@ -1859,6 +1898,9 @@
 <dt><a href="#addLogo">addLogo(options)</a></dt>
 <dd><p>Adds a logo to the map.</p>
 </dd>
+<dt><a href="#addBasemapsICGC">addBasemapsICGC(baseLayers)</a></dt>
+<dd><p>Adds base layers to the map.</p>
+</dd>
 <dt><a href="#addBasemaps">addBasemaps(baseLayers)</a></dt>
 <dd><p>Adds base layers to the map.</p>
 </dd>
@@ -1874,10 +1916,10 @@
 <dt><a href="#addExportControl">addExportControl(options, [position])</a></dt>
 <dd><p>Adds an export control to the map with the provided options and position.</p>
 </dd>
-<dt><a href="#addMarker">addMarker(options)</a></dt>
+<dt><a href="#addMarker">addMarker(options)</a> → <code>Object</code></dt>
 <dd><p>Adds a marker to the map.</p>
 </dd>
-<dt><a href="#addPopup">addPopup(options)</a> </dt>
+<dt><a href="#addPopup">addPopup(options)</a> → <code>Object</code></dt>
 <dd><p>Adds a popup to the map.</p>
 </dd>
 <dt><a href="#addFullScreen">addFullScreen()</a></dt>
@@ -1889,7 +1931,7 @@
 <dt><a href="#addLayerTree">addLayerTree(options)</a></dt>
 <dd><p>Adds a layer tree to the map.</p>
 </dd>
-<dt><a href="#createNavigationControl">createNavigationControl(options, [position])</a> </dt>
+<dt><a href="#createNavigationControl">createNavigationControl(options, [position])</a> → <code>Object</code></dt>
 <dd><p>Creates a navigation control with the provided options.</p>
 </dd>
 <dt><a href="#addNavigationControl">addNavigationControl(options, [position])</a></dt>
@@ -1898,13 +1940,13 @@
 <dt><a href="#addAttributionControl">addAttributionControl(options)</a></dt>
 <dd><p>Adds an attribution control to the map with the provided options.</p>
 </dd>
-<dt><a href="#_dealStyleMaps">_dealStyleMaps(name)</a> </dt>
+<dt><a href="#_dealStyleMaps">_dealStyleMaps(name)</a> → <code>string</code></dt>
 <dd><p>Internal method to handle map styles.</p>
 </dd>
 <dt><a href="#addImageLayerICGC">addImageLayerICGC(name, year)</a></dt>
 <dd><p>Adds an ICGC image layer to the map based on the specified name and year.</p>
 </dd>
-<dt><a href="#addVectorLayerICGC">addVectorLayerICGC(name, year)</a></dt>
+<dt><a href="#addVectorLayerICGC">addVectorLayerICGC(url, year)</a></dt>
 <dd><p>Adds an ICGC vector layer to the map based on the specified name and year.</p>
 </dd>
 <dt><a href="#addTerrainICGC">addTerrainICGC(resolution, [positionButton])</a></dt>
@@ -1913,25 +1955,35 @@
 </dl>
 
 <p><a name="getStyle"></a></p>
-<h2 id="getstyle">getStyle()</h2>
+<h2 id="getstyle-object">getStyle() → <code>Object</code></h2>
 <p>Retrieves the current style of the map.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>Object</code> - - The current style of the map.<br />
 <a name="getConfigStyles"></a></p>
-<h2 id="getconfigstyles">getConfigStyles()</h2>
+<h2 id="getconfigstyles-array">getConfigStyles() → <code>Array</code></h2>
 <p>Retrieves the available base styles from default options.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>Array</code> - - Array containing the names of available base styles.<br />
-<a name="getConfigImageLayers"></a></p>
-<h2 id="getconfigimagelayers">getConfigImageLayers()</h2>
-<p>Retrieves the available image layers from default options.</p>
+<a name="getConfigWMSLayers"></a></p>
+<h2 id="getconfigwmslayers-array">getConfigWMSLayers() → <code>Array</code></h2>
+<p>Retrieves the available WMS image layers from default options.</p>
+<p><strong>Kind</strong>: global function<br />
+<strong>Returns</strong>: <code>Array</code> - - Array containing the keys of available WMS image layers.<br />
+<a name="getConfigOrtoLayers"></a></p>
+<h2 id="getconfigortolayers-array">getConfigOrtoLayers() → <code>Array</code></h2>
+<p>Retrieves the available orto image layers from default options.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>Array</code> - - Array containing the keys of available image layers.<br />
 <a name="getConfigVectorLayers"></a></p>
-<h2 id="getconfigvectorlayers">getConfigVectorLayers()</h2>
+<h2 id="getconfigvectorlayers-array">getConfigVectorLayers() → <code>Array</code></h2>
 <p>Retrieves the available vector layers from default options.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>Array</code> - - Array containing the keys of available vector layers.<br />
+<a name="getConfigVectorAdminLayers"></a></p>
+<h2 id="getconfigvectoradminlayers-array">getConfigVectorAdminLayers() → <code>Array</code></h2>
+<p>Retrieves the available vector layers from default options.</p>
+<p><strong>Kind</strong>: global function<br />
+<strong>Returns</strong>: <code>Array</code> - - Array containing the keys of available vectorAdmin layers.<br />
 <a name="fetchData"></a></p>
 <h2 id="fetchdataurl-name-options">fetchData(url, name, options)</h2>
 <p>Fetches GeoJSON data from a URL and adds a corresponding layer to the map based on the specified geometry type.</p>
@@ -2211,7 +2263,7 @@
 </tbody>
 </table>
 <p><a name="getZoom"></a></p>
-<h2 id="getzoom">getZoom()</h2>
+<h2 id="getzoom-number">getZoom() → <code>number</code></h2>
 <p>Retrieves the current zoom level of the map.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>number</code> - - The current zoom level.<br />
@@ -2252,12 +2304,12 @@
 <p>Retrieves the bounds of the map.</p>
 <p><strong>Kind</strong>: global function<br />
 <a name="getCenter"></a></p>
-<h2 id="getcenter">getCenter()</h2>
+<h2 id="getcenter-lnglat">getCenter() → <code>LngLat</code></h2>
 <p>Retrieves the center coordinates of the map.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>LngLat</code> - - The center coordinates of the map.<br />
 <a name="setTerrain"></a></p>
-<h2 id="setterrainoptions">setTerrain(options)</h2>
+<h2 id="setterrainoptions-object">setTerrain(options) → <code>Object</code></h2>
 <p>Sets terrain options for the map.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>Object</code> - - Result of setting the terrain options.  </p>
@@ -2323,56 +2375,6 @@
 </table>
 <p><a name="addLayerGeoJSON"></a></p>
 <h2 id="addlayergeojsonlayer">addLayerGeoJSON(layer)</h2>
-<p>Adds a GeoJSON layer to the map.</p>
-<p><strong>Kind</strong>: global function  </p>
-<table>
-<thead>
-<tr>
-<th>Param</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>layer</td>
-<td><code>Object</code></td>
-<td>Options for the GeoJSON layer to add.</td>
-</tr>
-<tr>
-<td>layer.id</td>
-<td><code>string</code></td>
-<td>Unique identifier for the layer.</td>
-</tr>
-<tr>
-<td>layer.type</td>
-<td><code>string</code></td>
-<td>Type of layer ('geojson').</td>
-</tr>
-<tr>
-<td>layer.data</td>
-<td><code>Object</code></td>
-<td>GeoJSON data for the layer.</td>
-</tr>
-<tr>
-<td>layer.layerType</td>
-<td><code>string</code></td>
-<td>Map layer type (e.g., 'symbol', 'circle', 'fill').</td>
-</tr>
-<tr>
-<td>layer.layout</td>
-<td><code>Object</code></td>
-<td>Layer layout configuration.</td>
-</tr>
-<tr>
-<td>layer.paint</td>
-<td><code>Object</code></td>
-<td>Layer paint configuration.</td>
-</tr>
-</tbody>
-</table>
-<p><a name="addLayerGeoJSON"></a></p>
-<h2 id="addlayergeojsonlayer_1">addLayerGeoJSON(layer)</h2>
 <p>Adds a GeoJSON layer to the map.</p>
 <p><strong>Kind</strong>: global function  </p>
 <table>
@@ -2551,6 +2553,26 @@
 </tr>
 </tbody>
 </table>
+<p><a name="addBasemapsICGC"></a></p>
+<h2 id="addbasemapsicgcbaselayers">addBasemapsICGC(baseLayers)</h2>
+<p>Adds base layers to the map.</p>
+<p><strong>Kind</strong>: global function  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>baseLayers</td>
+<td><code>Array.&lt;Object&gt;</code></td>
+<td>Array of base layer objects.</td>
+</tr>
+</tbody>
+</table>
 <p><a name="addBasemaps"></a></p>
 <h2 id="addbasemapsbaselayers">addBasemaps(baseLayers)</h2>
 <p>Adds base layers to the map.</p>
@@ -2645,7 +2667,7 @@
 </tbody>
 </table>
 <p><a name="addMarker"></a></p>
-<h2 id="addmarkeroptions">addMarker(options)</h2>
+<h2 id="addmarkeroptions-object">addMarker(options) → <code>Object</code></h2>
 <p>Adds a marker to the map.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>Object</code> - - Instance of the added marker.  </p>
@@ -2686,7 +2708,7 @@
 </tbody>
 </table>
 <p><a name="addPopup"></a></p>
-<h2 id="addpopupoptions">addPopup(options)</h2>
+<h2 id="addpopupoptions-object">addPopup(options) → <code>Object</code></h2>
 <p>Adds a popup to the map.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>Object</code> - - Instance of the added popup.  </p>
@@ -2776,7 +2798,7 @@
 </tbody>
 </table>
 <p><a name="createNavigationControl"></a></p>
-<h2 id="createnavigationcontroloptions-position">createNavigationControl(options, [position])</h2>
+<h2 id="createnavigationcontroloptions-position-object">createNavigationControl(options, [position]) → <code>Object</code></h2>
 <p>Creates a navigation control with the provided options.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>Object</code> - - Instance of the created navigation control.  </p>
@@ -2853,7 +2875,7 @@
 </tbody>
 </table>
 <p><a name="_dealStyleMaps"></a></p>
-<h2 id="_dealstylemapsname">_dealStyleMaps(name)</h2>
+<h2 id="_dealstylemapsname-string">_dealStyleMaps(name) → <code>string</code></h2>
 <p>Internal method to handle map styles.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>string</code> - - URL of the map style.  </p>
@@ -2899,7 +2921,7 @@
 </tbody>
 </table>
 <p><a name="addVectorLayerICGC"></a></p>
-<h2 id="addvectorlayericgcname-year">addVectorLayerICGC(name, year)</h2>
+<h2 id="addvectorlayericgcurl-year">addVectorLayerICGC(url, year)</h2>
 <p>Adds an ICGC vector layer to the map based on the specified name and year.</p>
 <p><strong>Kind</strong>: global function  </p>
 <table>
@@ -2912,9 +2934,9 @@
 </thead>
 <tbody>
 <tr>
-<td>name</td>
+<td>url</td>
 <td><code>string</code></td>
-<td>The name of the vector layer.</td>
+<td>The url of the vector layer.</td>
 </tr>
 <tr>
 <td>year</td>
