@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/3.1.Funcions_doc/">
       
       
-        <link rel="prev" href="../2.11.FetchData/">
+        <link rel="prev" href="../2.12.AddFeatureQuery/">
       
       
       
@@ -728,6 +728,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.12.AddFeatureQuery/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.12.Consulta d'elements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1141,6 +1162,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#addfeaturequerylayername-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      addFeatureQuery(layerName, options)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#addscalecontroloptions-position" class="md-nav__link">
     <span class="md-ellipsis">
       addScaleControl(options, position)
@@ -1177,6 +1207,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#addpopupcoordinates-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      addPopup(coordinates, text)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#addmarkeroptions-object" class="md-nav__link">
     <span class="md-ellipsis">
       addMarker(options) → Object
@@ -1186,9 +1225,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addpopupoptions-object" class="md-nav__link">
+  <a href="#addpopupoptions-coord-text-object" class="md-nav__link">
     <span class="md-ellipsis">
-      addPopup(options) → Object
+      addPopup(options, coord, text) → Object
     </span>
   </a>
   
@@ -1640,6 +1679,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#addfeaturequerylayername-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      addFeatureQuery(layerName, options)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#addscalecontroloptions-position" class="md-nav__link">
     <span class="md-ellipsis">
       addScaleControl(options, position)
@@ -1676,6 +1724,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#addpopupcoordinates-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      addPopup(coordinates, text)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#addmarkeroptions-object" class="md-nav__link">
     <span class="md-ellipsis">
       addMarker(options) → Object
@@ -1685,9 +1742,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#addpopupoptions-object" class="md-nav__link">
+  <a href="#addpopupoptions-coord-text-object" class="md-nav__link">
     <span class="md-ellipsis">
-      addPopup(options) → Object
+      addPopup(options, coord, text) → Object
     </span>
   </a>
   
@@ -1904,8 +1961,14 @@
 <dt><a href="#addBasemaps">addBasemaps(baseLayers)</a></dt>
 <dd><p>Adds base layers to the map.</p>
 </dd>
+<dt><a href="#addFeatureQuery">addFeatureQuery(layerName, options)</a></dt>
+<dd><p>Adds feature query function to a layer.</p>
+</dd>
 <dt><a href="#addScaleControl">addScaleControl(options, position)</a></dt>
 <dd><p>Adds a scale control to the map.</p>
+<ul>
+<li>@function addScaleControl</li>
+</ul>
 </dd>
 <dt><a href="#removeMeasureControl">removeMeasureControl()</a></dt>
 <dd><p>Removes the measure control from the map.</p>
@@ -1916,10 +1979,13 @@
 <dt><a href="#addExportControl">addExportControl(options, [position])</a></dt>
 <dd><p>Adds an export control to the map with the provided options and position.</p>
 </dd>
+<dt><a href="#addPopup">addPopup(coordinates, text)</a></dt>
+<dd><p>Adds a popup to the map.</p>
+</dd>
 <dt><a href="#addMarker">addMarker(options)</a> → <code>Object</code></dt>
 <dd><p>Adds a marker to the map.</p>
 </dd>
-<dt><a href="#addPopup">addPopup(options)</a> → <code>Object</code></dt>
+<dt><a href="#addPopup">addPopup(options, coord, text)</a> → <code>Object</code></dt>
 <dd><p>Adds a popup to the map.</p>
 </dd>
 <dt><a href="#addFullScreen">addFullScreen()</a></dt>
@@ -2608,9 +2674,35 @@
 </tr>
 </tbody>
 </table>
+<p><a name="addFeatureQuery"></a></p>
+<h2 id="addfeaturequerylayername-options">addFeatureQuery(layerName, options)</h2>
+<p>Adds feature query function to a layer.</p>
+<p><strong>Kind</strong>: global function  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>layerName</td>
+<td><code>string</code></td>
+<td>name of the layer</td>
+</tr>
+<tr>
+<td>options</td>
+<td><code>objetc</code></td>
+<td>optional indications for the popup</td>
+</tr>
+</tbody>
+</table>
 <p><a name="addScaleControl"></a></p>
 <h2 id="addscalecontroloptions-position">addScaleControl(options, position)</h2>
-<p>Adds a scale control to the map.</p>
+<p>Adds a scale control to the map.
+ * @function addScaleControl</p>
 <p><strong>Kind</strong>: global function  </p>
 <table>
 <thead>
@@ -2666,6 +2758,31 @@
 </tr>
 </tbody>
 </table>
+<p><a name="addPopup"></a></p>
+<h2 id="addpopupcoordinates-text">addPopup(coordinates, text)</h2>
+<p>Adds a popup to the map.</p>
+<p><strong>Kind</strong>: global function  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>coordinates</td>
+<td><code>array</code></td>
+<td>Coordinates of the popup .</td>
+</tr>
+<tr>
+<td>text</td>
+<td><code>string</code></td>
+<td>Text content for the popup.</td>
+</tr>
+</tbody>
+</table>
 <p><a name="addMarker"></a></p>
 <h2 id="addmarkeroptions-object">addMarker(options) → <code>Object</code></h2>
 <p>Adds a marker to the map.</p>
@@ -2708,7 +2825,7 @@
 </tbody>
 </table>
 <p><a name="addPopup"></a></p>
-<h2 id="addpopupoptions-object">addPopup(options) → <code>Object</code></h2>
+<h2 id="addpopupoptions-coord-text-object">addPopup(options, coord, text) → <code>Object</code></h2>
 <p>Adds a popup to the map.</p>
 <p><strong>Kind</strong>: global function<br />
 <strong>Returns</strong>: <code>Object</code> - - Instance of the added popup.  </p>
@@ -2727,12 +2844,12 @@
 <td>Options for the popup to add.</td>
 </tr>
 <tr>
-<td>options.coord</td>
+<td>coord</td>
 <td><code>LngLatLike</code></td>
 <td>Coordinates for placing the popup.</td>
 </tr>
 <tr>
-<td>options.text</td>
+<td>text</td>
 <td><code>string</code></td>
 <td>HTML content for the popup.</td>
 </tr>

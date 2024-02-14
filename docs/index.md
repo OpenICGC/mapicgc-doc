@@ -24,13 +24,14 @@ Proporciona funcions documentades per la  creació d'un visor complet i totalmen
  * [2.9.Afegir comparador](2.9.AddCompare.md)
  * [2.10.Afegir logo](2.10.AddLogo.md)
  * [2.11.Fetch dades](2.11.FetchData.md)
+ * [2.12.Consulta d'elements](2.12.AddFeatureQuery.md)
 
 ##### Documentació
   * [3.1.Funcions](3.1.Funcions_doc.md)
 
-##### Preguntes freqüents
+<!-- ##### Preguntes freqüents
 
-* [Preguntes freqüents](faq.md)
+* [Preguntes freqüents](faq.md) -->
 
 
 #### Autor i Contacte
