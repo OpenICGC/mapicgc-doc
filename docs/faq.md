@@ -92,7 +92,7 @@ El archivo **estilobase.css** es este
                 style: 'mapbox://styles/mapbox/dark-v10',
                 center: [2.16859, 41.3954],
                 zoom: 15,
-                attributionControl: false,
+              attributionControl: false,
                 pitch: 45,
                 hash: true
             });
@@ -212,7 +212,7 @@ El archivo **estilobase.css** es este
                 style: 'mapbox://styles/mapbox/dark-v10',
                 center: [2.16859, 41.3954],
                 zoom: 15,
-                attributionControl: false,
+              attributionControl: false,
                 pitch: 45,
                 hash: true
             });
@@ -322,7 +322,7 @@ El archivo **estilobase.css** es este
                 style: 'mapbox://styles/mapbox/dark-v10',
                 center: [2.16859, 41.3954],
                 zoom: 15,
-                attributionControl: false,
+              attributionControl: false,
                 pitch: 45,
                 hash: true
             });
@@ -424,7 +424,7 @@ El archivo **estilobase.css** es este
                 style: 'mapbox://styles/mapbox/dark-v10',
                 center: [2.16859, 41.3954],
                 zoom: 15,
-                attributionControl: false,
+              attributionControl: false,
                 pitch: 45,
                 hash: true
             });
@@ -545,7 +545,7 @@ function addPopupToMapEdificios(nombreCapa) {
                 style: 'mapbox://styles/mapbox/dark-v10',
                 center: [2.16859, 41.3954],
                 zoom: 15,
-                attributionControl: false,
+              attributionControl: false,
                 pitch: 45,
                 hash: true
             });
@@ -608,7 +608,7 @@ function addPopupToMapEdificios(nombreCapa) {
                 style: 'mapbox://styles/mapbox/dark-v10',
                 center: [2.16859, 41.3954],
                 zoom: 15,
-                attributionControl: false,
+              attributionControl: false,
                 pitch: 45,
                 hash: true
             });
