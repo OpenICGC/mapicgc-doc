@@ -468,28 +468,7 @@
         
   
   <span class="md-ellipsis">
-    2.1.0.Mapa
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../2.1.1.AddTerrain/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    2.1.1.Afegir 3D
+    2.0.Mapa
   </span>
   
 
@@ -510,7 +489,7 @@
         
   
   <span class="md-ellipsis">
-    2.1.2.Afegir 3D ICGC
+    2.1.Afegir 3D ICGC
   </span>
   
 
@@ -531,7 +510,7 @@
         
   
   <span class="md-ellipsis">
-    2.2.Afegir base
+    2.2.Afegir control d'estil
   </span>
   
 
@@ -677,11 +656,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../2.5.AddLayer/" class="md-nav__link">
+      <a href="../2.5.AddLayerGeojson/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    2.5.Afegir capa
+    2.5.Afegir capa GeoJSON
   </span>
   
 
@@ -824,11 +803,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../2.12.AddFeatureQuery/" class="md-nav__link">
+      <a href="../2.12.FetchDataAndMenu/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    2.12.Consulta d'elements
+    2.12.Fetch dades i crea menú
   </span>
   
 
@@ -845,11 +824,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../2.13.AddGeocoderICGC/" class="md-nav__link">
+      <a href="../2.13.AddFeatureQuery/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    2.13.Afegir geocodificador ICGC
+    2.13.Consulta d'elements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.14.AddGeocoderICGC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.14.Afegir geocodificador ICGC
   </span>
   
 
@@ -1102,11 +1102,12 @@
 </span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="w">        </span><span class="nx">pitch</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span>
 </span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>
 </span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a><span class="w">      </span><span class="p">});</span>
-</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a>
-</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a><span class="w">      </span><span class="nx">map</span><span class="p">.</span><span class="nx">addImageLayerICGC</span><span class="p">(</span><span class="nx">mapicgcgl</span><span class="p">.</span><span class="nx">Layers</span><span class="p">.</span><span class="nx">Orto</span><span class="p">.</span><span class="nx">ortofotoColor2013</span><span class="p">);</span>
-</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="w">    </span><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-</span><span id="__span-0-45"><a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a>  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-</span><span id="__span-0-46"><a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="w">      </span><span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">&quot;load&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a><span class="w">        </span><span class="nx">map</span><span class="p">.</span><span class="nx">addImageLayerICGC</span><span class="p">(</span><span class="nx">mapicgcgl</span><span class="p">.</span><span class="nx">Layers</span><span class="p">.</span><span class="nx">Orto</span><span class="p">.</span><span class="nx">ortofotoColor2013</span><span class="p">);</span>
+</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="w">      </span><span class="p">});</span>
+</span><span id="__span-0-45"><a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a><span class="w">    </span><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-0-46"><a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a>  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span><span id="__span-0-47"><a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </span></code></pre></div>
 <h2 id="capes-dimatge-icgc">Capes d'imatge ICGC</h2>
 <h3 id="layersortoid">Layers.Orto.{id}</h3>

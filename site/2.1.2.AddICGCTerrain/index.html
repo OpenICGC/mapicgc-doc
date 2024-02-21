@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc/2.1.2.AddICGCTerrain/">
       
       
-        <link rel="prev" href="../2.1.1.AddTerrain/">
+        <link rel="prev" href="../2.1.0.Map/">
       
       
         <link rel="next" href="../2.2.AddBasemap/">
@@ -26,7 +26,7 @@
     
     
       
-        <title>2.1.2.Afegir 3D ICGC - mapicgc-gl-js</title>
+        <title>2.1.Afegir 3D ICGC - mapicgc-gl-js</title>
       
     
     
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              2.1.2.Afegir 3D ICGC
+              2.1.Afegir 3D ICGC
             
           </span>
         </div>
@@ -468,28 +468,7 @@
         
   
   <span class="md-ellipsis">
-    2.1.0.Mapa
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../2.1.1.AddTerrain/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    2.1.1.Afegir 3D
+    2.0.Mapa
   </span>
   
 
@@ -517,7 +496,7 @@
           
   
   <span class="md-ellipsis">
-    2.1.2.Afegir 3D ICGC
+    2.1.Afegir 3D ICGC
   </span>
   
 
@@ -528,7 +507,7 @@
         
   
   <span class="md-ellipsis">
-    2.1.2.Afegir 3D ICGC
+    2.1.Afegir 3D ICGC
   </span>
   
 
@@ -609,7 +588,7 @@
         
   
   <span class="md-ellipsis">
-    2.2.Afegir base
+    2.2.Afegir control d'estil
   </span>
   
 
@@ -668,11 +647,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../2.5.AddLayer/" class="md-nav__link">
+      <a href="../2.5.AddLayerGeojson/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    2.5.Afegir capa
+    2.5.Afegir capa GeoJSON
   </span>
   
 
@@ -815,11 +794,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../2.12.AddFeatureQuery/" class="md-nav__link">
+      <a href="../2.12.FetchDataAndMenu/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    2.12.Consulta d'elements
+    2.12.Fetch dades i crea menú
   </span>
   
 
@@ -836,11 +815,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../2.13.AddGeocoderICGC/" class="md-nav__link">
+      <a href="../2.13.AddFeatureQuery/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    2.13.Afegir geocodificador ICGC
+    2.13.Consulta d'elements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.14.AddGeocoderICGC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.14.Afegir geocodificador ICGC
   </span>
   
 
@@ -1008,7 +1008,7 @@
                   
 
 
-  <h1>2.1.2.Afegir 3D ICGC</h1>
+  <h1>2.1.Afegir 3D ICGC</h1>
 
 <h2 id="exemple">Exemple</h2>
 <p>.addTerrainICGC(resolution, position)</p>
@@ -1083,10 +1083,10 @@
 </span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="w">        </span><span class="nx">hash</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
 </span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="w">        </span><span class="nx">pitch</span><span class="o">:</span><span class="w"> </span><span class="mf">80</span><span class="p">,</span>
 </span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a><span class="w">        </span><span class="nx">bearing</span><span class="o">:</span><span class="w"> </span><span class="mf">40</span><span class="p">,</span>
-</span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a>
-</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="w">      </span><span class="p">});</span>
-</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a>
-</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="w">      </span><span class="nx">map</span><span class="p">.</span><span class="nx">addTerrainICGC</span><span class="p">(</span><span class="nx">mapicgcgl</span><span class="p">.</span><span class="nx">Terrains</span><span class="p">.</span><span class="nx">WORLD3M</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;bottom-right&quot;</span><span class="p">);</span>
+</span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a><span class="w">      </span><span class="p">});</span>
+</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="w">      </span><span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">&quot;load&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a><span class="w">        </span><span class="nx">map</span><span class="p">.</span><span class="nx">addTerrainICGC</span><span class="p">(</span><span class="nx">mapicgcgl</span><span class="p">.</span><span class="nx">Terrains</span><span class="p">.</span><span class="nx">ICGC5M</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;bottom-right&quot;</span><span class="p">);</span>
+</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="w">      </span><span class="p">});</span>
 </span><span id="__span-0-45"><a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a><span class="w">    </span><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 </span><span id="__span-0-46"><a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a>  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 </span><span id="__span-0-47"><a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
@@ -1097,17 +1097,17 @@
 <thead>
 <tr>
 <th>id</th>
-<th>Resolució</th>
+<th>Resolució / Extensió</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>ICGC5M</td>
-<td>5m</td>
+<td>5m / Catalunya</td>
 </tr>
 <tr>
-<td>WORLD3M</td>
-<td>3m</td>
+<td>WORLD30M</td>
+<td>30m / World</td>
 </tr>
 </tbody>
 </table>
