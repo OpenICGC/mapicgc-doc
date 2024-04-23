@@ -102,6 +102,9 @@ extra:
       link: 'https://openicgc-github-io.translate.goog/mapicgc-doc/?_x_tr_sl=ca&_x_tr_tl=fr&_x_tr_hl=ca&_x_tr_pto=wapp' 
       # _x_tr_sl = source language
       # _x_tr_tl = translation language
+  analytics:
+    provider: google
+    property: G-GR9JCZYNFH
 
 plugins:
   - search
