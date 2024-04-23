@@ -4,9 +4,9 @@
 </p>
 
 
-# MapICGC-gl-js Api Reference
+## MapICGC-gl-js Documentació
 
-<a href="https://openicgc.github.io/mapicgc-doc/" alt="mapicgc-gl-js api reference" target="_blank"></a>
+https://openicgc.github.io/mapicgc-doc/
 
 
 ### Instal.lar eines de documentació 💿
