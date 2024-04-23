@@ -1,5 +1,3 @@
-## MapICGC GL JS
-
 La biblioteca MapICGC GL JS, creada com a envoltori de MapLibreGL, ofereix noves funcions específiques en un entorn ICGC. Simplifica el desenvolupament integrant característiques com tessel·les vectorials i imatges satel·litals, i incorpora de manera inmediata estils, terrenys i dades ICGC. 
 Proporciona funcions documentades per a la creació d'un visor complet i totalment personalitzable.
 
@@ -24,25 +22,37 @@ La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i p
  * [2.3 Afegir estil ORTO3D](2.1.3.3dStyle.md)
  * [2.4 Afegir control d'estil](2.2.AddBasemap.md)
  * [2.5 Afegir capa d'imatge ICGC](2.3.AddImageLayerICGC.md)
- * [2.6 Afegir capa vector (FGB) ICGC](2.4.AddVectorLayerFGBICGC.md)
- * [2.7 Afegir capa vector ICGC](2.4.AddVectorLayerICGC.md)
- * [2.8 Afegir capa GeoJSON](2.5.AddLayerGeojson.md)
- * [2.9 Afegir llistat de capes](2.6.AddLayerTree.md)
- * [2.10 Afegir marcador](2.7.AddMarker.md)
- * [2.11 Afegir control](2.8.AddControl.md)
- * [2.12 Afegir comparador](2.9.AddCompare.md)
- * [2.13 Afegir logo](2.10.AddLogo.md)
- * [2.14 Fetch dades](2.11.FetchData.md)
- * [2.15 Fetch dades i crea menú](2.12.FetchDataAndMenu.md)
- * [2.16 Consulta d'elements](2.13.AddFeatureQuery.md)
- * [2.17 Afegir geocodificador ICGC](2.14.AddGeocoderICGC.md)
- * [2.18 Exemple visor](2.20.AdvancedExample.md)
+ <!-- * [2.6 Afegir capa vector (FGB) ICGC](2.4.AddVectorLayerFGBICGC.md) -->
+ * [2.6 Afegir capa vector ICGC](2.4.AddVectorLayerICGC.md)
+ * [2.7 Afegir capa GeoJSON](2.5.AddLayerGeojson.md)
+ * [2.8 Afegir llistat de capes](2.6.AddLayerTree.md)
+ * [2.9 Afegir marcador](2.7.AddMarker.md)
+ * [2.10 Afegir control](2.8.AddControl.md)
+ * [2.11 Afegir comparador](2.9.AddCompare.md)
+ * [2.12 Afegir logo](2.10.AddLogo.md)
+ * [2.13 Fetch dades](2.11.FetchData.md)
+ * [2.14 Fetch dades i crea menú](2.12.FetchDataAndMenu.md)
+ * [2.15 Consulta d'elements](2.13.AddFeatureQuery.md)
+ * [2.16 Afegir geocodificador ICGC](2.14.AddGeocoderICGC.md)
+ * [2.17 Exemple visor](2.20.AdvancedExample.md)
 
 ## Documentació
   * [3.1 Funcions](3.1.Funcions_doc.md)
+
+## Llicència
+
+* <a target="_blank" href="https://opensource.org/license/bsd-3-clause">BSD-3-Clause license</a>
+
+## Versionat
+
+* <a target="_blank" href="https://www.npmjs.com/package/mapicgc-gl-js">Versió 1.0.0</a>
+
 
 ## Autor i contacte
 [Unitat Geostart](mailto:geostart@icgc.cat), Institut Cartogràfic i Geològic de Catalunya.
 
 
+
+<a target="_blank" href="https://icgc.cat/"><img src="https://tilemaps.icgc.cat/cdn/logos/icgc_gencat_logos_color.png" width="350"></a>
+<!-- <a target="_blank" href="https://web.gencat.cat/ca/inici"> <img src="https://tilemaps.icgc.cat/cdn/logos/gencat_logo_color.png" width="200"></a> -->
 
