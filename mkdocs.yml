@@ -8,18 +8,18 @@ theme:
   language: 'ca'
   logo: 'assets/icgc_gencat_logos_blanc.png'
   favicon: assets/favicon.png
-  palette: 
+  palette:  
+    - scheme: custom
       primary: custom
       accent: custom
-        # primary: deep orange
-    # - scheme: default
-    #   toggle:
-    #     icon: material/brightness-7 
-    #     name: Switch to dark mode
-    # - scheme: slate
-    #   toggle:
-    #     icon: material/brightness-4
-    #     name: Switch to light mode
+      toggle:
+        icon: material/brightness-7 
+        name: Canviar a mode fosc
+    - scheme: slate
+      primary: custom   
+      toggle:
+        icon: material/brightness-4
+        name: Canviar a mode clar
 
   highlightjs: true
   # hljs_style: github
@@ -106,4 +106,4 @@ extra:
 plugins:
   - search
   - google-translate:
-      url: https://openicgc-github-io.translate.goog/mapicgc-doc/?  # optional (required for local testing)
+      url: 'https://openicgc-github-io.translate.goog/mapicgc-doc/?  # optional (required for local testing)'
