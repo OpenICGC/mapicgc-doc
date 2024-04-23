@@ -1,5 +1,24 @@
-
-  
+.md-header__button.md-logo {
+  margin: 0;
+  padding: 0;
+}
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+:root {
+  --md-primary-fg-color: #333333;
+  --md-primary-fg-color--dark: #404040;
+  --md-accent-fg-color: #bd0000;
+  --md-accent-bg-color: #bd0000;
+}
+.md-tabs{
+  background-color: #4f4d4d;
+}
+.md-typeset a {
+  color: #bd0000;
+} 
 .md-header__button.md-logo {
     margin: 0;
     padding: 0;
@@ -7,4 +26,63 @@
   .md-header__button.md-logo img, .md-header__button.md-logo svg {
     height: 2.4rem;
     width: 2.4rem;
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box select {
+  background-color: #0563af;
+  color: white;
+  padding: 12px;
+  width: 250px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.box::before {
+  content: "\f13a";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.box:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+  padding: 30px;
+}
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.4rem;
+  width: 11rem;
+}
+
+
+
+
+.md-header__topic{
+  display: block;
+  position: absolute;
+    left: 33%;
+    width: fit-content;
 }
