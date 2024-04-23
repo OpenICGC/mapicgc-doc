@@ -7,8 +7,8 @@ function commitAndPush(commitMessage) {
     // Comandament per fer un commit amb el missatge proporcionat
     const commitCommand = `git commit -m "${commitMessage}"`;
     // Comandament per fer push als repositoris remots
-    const pushCommand1 = 'git push origin1 master';
-    const pushCommand2 = 'git push -u origin2 main';
+    const pushCommand1 = 'git push origin master';
+    const pushCommand2 = 'git push -u origin2 master';
     // Executar els comandaments en sèrie
     exec(`${addCommand} && ${commitCommand} && ${pushCommand1} && ${pushCommand2}`, (error, stdout, stderr) => {
         if (error) {
