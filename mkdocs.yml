@@ -7,7 +7,7 @@ theme:
   name: 'material'
   language: 'ca'
   logo: 'assets/icgc_gencat_logos_blanc.png'
-  favicon: assets/cartography.png
+  favicon: assets/favicon.png
   palette: 
       primary: custom
       accent: custom
@@ -53,7 +53,7 @@ repo_url: "https://github.com/OpenICGC/mapicgc-doc"
  
 nav:
 - 'Inici':
-  - MAPICGC GL JS: index.md
+  - MapICGC-gl-js: index.md
   
 
 - 'Instal·lació':
@@ -85,6 +85,26 @@ nav:
 - 'Documentació':  
   - 3.1 Funcions: 3.1.Funcions_doc.md
 
+extra:
+  alternate:
+      # Original Language pip install mkdocs-google-translate
+    - name: Català
+      lang: 'ca'
+      #link: '%GT_RELATIVE_URL%'  # For relative urls back to original language
+      # Extra languages
+    - name: English
+      lang: 'en'
+      link: 'https://openicgc-github-io.translate.goog/mapicgc-doc/?_x_tr_sl=ca&_x_tr_tl=en&_x_tr_hl=ca&_x_tr_pto=wapp'
+    - name: Español
+      lang: 'es'
+      link: 'https://openicgc-github-io.translate.goog/mapicgc-doc/?_x_tr_sl=ca&_x_tr_tl=es&_x_tr_hl=ca&_x_tr_pto=wapp'
+    - name: Française
+      lang: 'fr'
+      link: 'https://openicgc-github-io.translate.goog/mapicgc-doc/?_x_tr_sl=ca&_x_tr_tl=fr&_x_tr_hl=ca&_x_tr_pto=wapp' 
+      # _x_tr_sl = source language
+      # _x_tr_tl = translation language
 
 plugins:
-    - search
+  - search
+  - google-translate:
+      url: https://openicgc-github-io.translate.goog/mapicgc-doc/?  # optional (required for local testing)
