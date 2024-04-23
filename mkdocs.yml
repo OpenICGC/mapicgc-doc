@@ -1,8 +1,8 @@
-site_name: MAPICGC GL JS 
+site_name: 'MapICGC-gl-js' 
 #site_url: https://autogitlab.icgc.local/geostarters/icgc/mapicgc/mapicgc-doc
 site_url: https://openicgc.github.io/mapicgc-doc
 site_description: Documentació i exemples llibreria mapicgc-gl-js.
-site_author: geostart
+site_author: unitatgeostart
 theme:
   name: 'material'
   language: 'ca'
@@ -55,7 +55,6 @@ nav:
 - 'Inici':
   - MapICGC-gl-js: index.md
   
-
 - 'Instal·lació':
   - 1.1 Instal·lació via NPM: 1.1.Inst_npm.md  
   - 1.2 Instal·lació via CDN: 1.2.Inst_cdn.md
