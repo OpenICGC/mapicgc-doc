@@ -17,12 +17,10 @@ La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i p
  
 ## Exemples
  * [2.1 Crear mapa i afegir estil](2.1.0.Map.md)
- <!-- * [2.1.1.Afegir 3D](2.1.1.AddTerrain.md) -->
  * [2.2 Afegir terreny](2.1.2.AddICGCTerrain.md)
  * [2.3 Afegir estil ORTO3D](2.1.3.3dStyle.md)
  * [2.4 Afegir control d'estil](2.2.AddBasemap.md)
  * [2.5 Afegir capa d'imatge ICGC](2.3.AddImageLayerICGC.md)
- <!-- * [2.6 Afegir capa vector (FGB) ICGC](2.4.AddVectorLayerFGBICGC.md) -->
  * [2.6 Afegir capa vector ICGC](2.4.AddVectorLayerICGC.md)
  * [2.7 Afegir capa GeoJSON](2.5.AddLayerGeojson.md)
  * [2.8 Afegir llistat de capes](2.6.AddLayerTree.md)
@@ -39,6 +37,11 @@ La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i p
 ## Documentació
   * [3.1 Funcions](3.1.Funcions_doc.md)
 
+## Templates
+  * <a target="_blank" href="https://github.com/OpenICGC/basic-mapicgc-gl-js-viewer-svelte">Svelte</a>
+  * <a target="_blank" href="https://github.com/OpenICGC/basic-mapicgc-gl-js-viewer-js">React</a>
+  * <a target="_blank" href="https://github.com/OpenICGC/basic-mapicgc-gl-js-viewer-react">Vanilla JS</a>
+
 ## Llicència
 
 * <a target="_blank" href="https://opensource.org/license/bsd-3-clause">BSD-3-Clause license</a>
@@ -54,5 +57,4 @@ La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i p
 
 
 <a target="_blank" href="https://icgc.cat/"><img src="https://tilemaps.icgc.cat/cdn/logos/icgc_gencat_logos_color.png" width="350"></a>
-<!-- <a target="_blank" href="https://web.gencat.cat/ca/inici"> <img src="https://tilemaps.icgc.cat/cdn/logos/gencat_logo_color.png" width="200"></a> -->
 
