@@ -12,13 +12,13 @@
         <meta name="author" content="unitatgeostart">
       
       
-        <link rel="canonical" href="https://openicgc.github.io/mapicgc-doc/2.20.AdvancedExample/">
+        <link rel="canonical" href="https://openicgc.github.io/mapicgc-doc/2.21.Maplibre2Mapicgc/">
       
       
-        <link rel="prev" href="../2.14.AddGeocoderICGC/">
+        <link rel="prev" href="../2.20.AdvancedExample/">
       
       
-        <link rel="next" href="../2.21.Maplibre2Mapicgc/">
+        <link rel="next" href="../3.1.Funcions_doc/">
       
       
       <link rel="icon" href="../assets/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>2.17 Exemple visor - MapICGC-gl-js</title>
+        <title>2.18 Reutilització codi Maplibre - MapICGC-gl-js</title>
       
     
     
@@ -123,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              2.17 Exemple visor
+              2.18 Reutilització codi Maplibre
             
           </span>
         </div>
@@ -924,6 +924,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.20.AdvancedExample/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.17 Exemple visor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -938,7 +959,7 @@
           
   
   <span class="md-ellipsis">
-    2.17 Exemple visor
+    2.18 Reutilització codi Maplibre
   </span>
   
 
@@ -949,7 +970,7 @@
         
   
   <span class="md-ellipsis">
-    2.17 Exemple visor
+    2.18 Reutilització codi Maplibre
   </span>
   
 
@@ -990,27 +1011,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../2.21.Maplibre2Mapicgc/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    2.18 Reutilització codi Maplibre
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -1153,17 +1153,18 @@
   
 
 
-  <h1>2.17 Exemple visor</h1>
+  <h1>2.18 Reutilització codi Maplibre</h1>
 
 <h2 id="exemple">Exemple</h2>
-<p class="codepen" data-height="500" data-theme-id="light" data-slug-hash="GRLqpOq" data-editable="true" data-user="unitatgeostart" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/unitatgeostart/pen/GRLqpOq">
+<p>Exemple de reutilització d'un codi Maplibre a MapICGC GL JS. Les dades utilitzades provenen de <a target="_blank" href="https://analisi.transparenciacatalunya.cat/Medi-Rural-Pesca/Mapa-d-explotacions-agr-coles-DUN-de-Catalunya/iqpi-zasj/explore/query/SELECT%0A%20%20%60the_geom%60%2C%0A%20%20%60campanya%60%2C%0A%20%20%60oc%60%2C%0A%20%20%60nom_oc%60%2C%0A%20%20%60ajuts%60%2C%0A%20%20%60codi_pro%60%2C%0A%20%20%60nom_pro%60%2C%0A%20%20%60c_mun_ine%60%2C%0A%20%20%60n_mun_ine%60%2C%0A%20%20%60naturalesa%60%2C%0A%20%20%60data_naix%60%2C%0A%20%20%60ote%60%2C%0A%20%20%60opfh%60%2C%0A%20%20%60codi_dop%60%2C%0A%20%20%60venda_prox%60%2C%0A%20%20%60eap%60%2C%0A%20%20%60id_exp%60%2C%0A%20%20%60ha_dec%60%0AWHERE%0A%20%20caseless_one_of%28%60campanya%60%2C%20%222023%22%29%0A%20%20AND%20%28caseless_one_of%28%60naturalesa%60%2C%20%22PF%20Dona%22%29%0A%20%20%20%20%20%20%20%20%20AND%20%28%60data_naix%60%20%3E%20%221990%22%29%29/page/filter">Dades Obertes</a> i representen les explotacions agrícoles de Catalunya a la campanya 2023 de dones nascudes després del 1990.</p>
+<p class="codepen" data-height="500" data-theme-id="light" data-slug-hash="dyEVNQe" data-editable="true" data-user="unitatgeostart" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/unitatgeostart/pen/dyEVNQe">
   Exemple </a> by unitatgeostart (<a href="https://codepen.io/unitatgeostart">@unitatgeostart</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  on <a  href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-<p><a style="color: white" target="_blank" class=" button btn btn-primary" href="https://codepen.io/unitatgeostart/pen/GRLqpOq">CodePen</a></p>
+<p><a style="color: white" target="_blank" class=" button btn btn-primary" href="https://codepen.io/unitatgeostart/pen/dyEVNQe">CodePen</a></p>
 <style>
 .button{
     position: relative;
