@@ -7,7 +7,7 @@ La llibreria MapICGC GL JS, basada en Maplibre GL, és una eina desenvolupada pe
 
 ### Com funciona?
 
-La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i proporcionant accés a dades geoespacials de l'Institut Cartogràfic i Geològic de Catalunya (ICGC). Per integrar-ho al teu projecte, nomès cal instal·lar la llibreria mitjançant npm o integrar-la a través de CDN.
+La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i proporcionant accés a dades geoespacials de l'Institut Cartogràfic i Geològic de Catalunya (ICGC). Per integrar-ho al teu projecte, nomès cal instal·lar la llibreria mitjançant NPM o integrar-la a través de CDN. Gran part del codi Maplibre/Mapbox es compatible amb la llibreria MapICGC GL JS.
 
 
 ## Instal·lació
@@ -33,14 +33,15 @@ La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i p
  * [2.15 Consulta d'elements](2.13.AddFeatureQuery.md)
  * [2.16 Afegir geocodificador ICGC](2.14.AddGeocoderICGC.md)
  * [2.17 Exemple visor](2.20.AdvancedExample.md)
+ * [2.18 Reutilització codi Maplibre](2.21.Maplibre2Mapicgc.md)
 
 ## Documentació
   * [3.1 Funcions](3.1.Funcions_doc.md)
 
 ## Templates
   * <a target="_blank" href="https://github.com/OpenICGC/basic-mapicgc-gl-js-viewer-svelte">Svelte</a>
-  * <a target="_blank" href="https://github.com/OpenICGC/basic-mapicgc-gl-js-viewer-js">React</a>
-  * <a target="_blank" href="https://github.com/OpenICGC/basic-mapicgc-gl-js-viewer-react">Vanilla JS</a>
+  * <a target="_blank" href="https://github.com/OpenICGC/basic-mapicgc-gl-js-viewer-react">React</a>
+  * <a target="_blank" href="https://github.com/OpenICGC/basic-mapicgc-gl-js-viewer-js">Vanilla JS</a>
 
 ## Llicència
 
