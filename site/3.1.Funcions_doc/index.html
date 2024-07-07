@@ -1190,6 +1190,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#setskyoptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      setSky(options)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#addmousecoordcontrolposition" class="md-nav__link">
     <span class="md-ellipsis">
       addMouseCoordControl([position])
@@ -2598,6 +2607,15 @@
   <a href="#addcontrolcontrol-position" class="md-nav__link">
     <span class="md-ellipsis">
       addControl(control, [position])
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setskyoptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      setSky(options)
     </span>
   </a>
   
@@ -4086,6 +4104,64 @@
 <td><code>string</code></td>
 <td><code>&quot;&#x27;top-right&#x27;&quot;</code></td>
 <td>Position to add the control on the map.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="setSky"></a></p>
+<h2 id="setskyoptions">setSky(options)</h2>
+<p>Sets the sky properties of the map.</p>
+<p><strong>Kind</strong>: global function  </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td></td>
+<td>Options to set the sky properties.</td>
+</tr>
+<tr>
+<td>[options.skyType]</td>
+<td><code>string</code></td>
+<td><code>&quot;&#x27;gradient&#x27;&quot;</code></td>
+<td>Type of sky to set (e.g., 'gradient', 'atmosphere').</td>
+</tr>
+<tr>
+<td>[options.color]</td>
+<td><code>string</code></td>
+<td><code>&quot;&#x27;lightblue&#x27;&quot;</code></td>
+<td>Color of the sky.</td>
+</tr>
+<tr>
+<td>[options.horizonBlend]</td>
+<td><code>Number</code></td>
+<td><code>0.03</code></td>
+<td>Blend horizon value.</td>
+</tr>
+<tr>
+<td>[options.starIntensity]</td>
+<td><code>Number</code></td>
+<td><code>0.5</code></td>
+<td>Intensity of stars in the sky.</td>
+</tr>
+<tr>
+<td>[options.sunIntensity]</td>
+<td><code>Number</code></td>
+<td><code>0.1</code></td>
+<td>Intensity of the sun in the sky.</td>
+</tr>
+<tr>
+<td>[options.sunPosition]</td>
+<td><code>Array.&lt;Number&gt;</code></td>
+<td><code>[0, 0]</code></td>
+<td>Position of the sun in the sky.</td>
 </tr>
 </tbody>
 </table>
