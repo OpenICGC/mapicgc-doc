@@ -3,11 +3,11 @@ Proporciona funcions documentades per a la creació d'un visor complet i totalme
 
 ### Què és?
 
-La llibreria MapICGC GL JS, basada en Maplibre GL, és una eina desenvolupada per l'Institut Cartogràfic i Geològic de Catalunya (ICGC) per millorar la cartografia web i proporcionar una solució integrada als desenvolupadors. Permet accedir fàcilment a dades geoespacials de l'ICGC, com ara tessel·les vectorials, imatges satel·litals i models d'elevació del terreny, facilitant la creació de visors web personalitzats. A més, ofereix funcions per a la gestió de dades en temps d'execució, com geocodificació i geolocalització, i el seu disseny modular permet la seva aplicació en una àmplia gamma de projectes de cartografia i gestió de recursos.
+La biblioteca MapICGC GL JS, basada en Maplibre GL, és una eina desenvolupada per l'Institut Cartogràfic i Geològic de Catalunya (ICGC) per millorar la cartografia web i proporcionar una solució integrada als desenvolupadors. Permet accedir fàcilment a dades geoespacials de l'ICGC, com ara tessel·les vectorials, imatges satel·litals i models d'elevació del terreny, facilitant la creació de visors web personalitzats. A més, ofereix funcions per a la gestió de dades en temps d'execució, com geocodificació i geolocalització, i el seu disseny modular permet la seva aplicació en una àmplia gamma de projectes de cartografia i gestió de recursos.
 
 ### Com funciona?
 
-La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i proporcionant accés a dades geoespacials de l'Institut Cartogràfic i Geològic de Catalunya (ICGC). Per integrar-ho al teu projecte, nomès cal instal·lar la llibreria mitjançant NPM o integrar-la a través de CDN. Gran part del codi Maplibre/Mapbox es compatible amb la llibreria MapICGC GL JS.
+La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i proporcionant accés a dades geoespacials de l'Institut Cartogràfic i Geològic de Catalunya (ICGC). Per integrar-ho al teu projecte, nomès cal instal·lar la biblioteca mitjançant NPM o integrar-la a través de CDN. Gran part del codi Maplibre/Mapbox es compatible amb la biblioteca MapICGC GL JS.
 
 
 ## Instal·lació
