@@ -57,5 +57,5 @@ La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i p
 
 
 
-<a target="_blank" href="https://icgc.cat/"><img src="https://tilemaps.icgc.cat/cdn/logos/icgc_gencat_logos_color.png" width="350"></a>
+<a target="_blank" href="https://icgc.cat/"><img src="https://autogitlab.icgc.local/geostarters/icgc/recursos/-/raw/master/logos/icgc_gencat_logos_color.png" width="350"></a>
 
