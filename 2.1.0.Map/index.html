@@ -669,6 +669,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#stylesrasterid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Styles.RASTER.{id}
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1178,6 +1187,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#stylesrasterid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Styles.RASTER.{id}
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1273,7 +1291,7 @@
 </span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">mapicgcgl</span><span class="p">.</span><span class="nx">Config</span><span class="p">.</span><span class="nx">getConfigICGC</span><span class="p">();</span>
 </span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">mapicgcgl</span><span class="p">.</span><span class="nb">Map</span><span class="p">({</span>
 </span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="w">          </span><span class="nx">container</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;map&quot;</span><span class="p">,</span>
-</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="w">          </span><span class="nx">style</span><span class="o">:</span><span class="w"> </span><span class="nx">data</span><span class="p">.</span><span class="nx">Styles</span><span class="p">.</span><span class="nx">TOPO</span><span class="p">,</span>
+</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="w">          </span><span class="nx">style</span><span class="o">:</span><span class="w"> </span><span class="nx">data</span><span class="p">.</span><span class="nx">Styles</span><span class="p">.</span><span class="nx">TOPO</span><span class="p">,</span><span class="w"> </span><span class="c1">// or --&gt; data.Styles.RASTER.TOPO,</span>
 </span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a><span class="w">          </span><span class="nx">center</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="mf">2.1464</span><span class="p">,</span><span class="w"> </span><span class="mf">41.306</span><span class="p">],</span>
 </span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="w">          </span><span class="nx">zoom</span><span class="o">:</span><span class="w"> </span><span class="mf">7.4</span><span class="p">,</span>
 </span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="w">          </span><span class="nx">maxZoom</span><span class="o">:</span><span class="w"> </span><span class="mf">14</span><span class="p">,</span>
@@ -1330,6 +1348,50 @@
 <tr>
 <td>GEOLOGY</td>
 <td><img src="https://visors.icgc.cat/contextmaps/imatges_estil/icgc_geologic_informacio.png" width="250"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="stylesrasterid">Styles.RASTER.{id}</h3>
+<p>Tipus Raster: </p>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>Mostra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TOPO</td>
+<td><img src="https://icgc-web-pro.s3.eu-central-1.amazonaws.com/produccio/s3fs-public/2024-10/mapabase_topo.jpg" width="250"></td>
+</tr>
+<tr>
+<td>ADMIN</td>
+<td><img src="https://icgc-web-pro.s3.eu-central-1.amazonaws.com/produccio/s3fs-public/2024-10/mapabase_administratiu.jpg" width="250"></td>
+</tr>
+<tr>
+<td>LIGHT</td>
+<td><img src="https://icgc-web-pro.s3.eu-central-1.amazonaws.com/produccio/s3fs-public/2024-10/mapabase_topo_gris.jpg" width="250"></td>
+</tr>
+<tr>
+<td>STANDARD</td>
+<td><img src="https://icgc-web-pro.s3.eu-central-1.amazonaws.com/produccio/s3fs-public/2024-10/mapabase_estandard_0.jpg" width="250"></td>
+</tr>
+<tr>
+<td>SIMPLIFIED</td>
+<td><img src="https://icgc-web-pro.s3.eu-central-1.amazonaws.com/produccio/s3fs-public/2024-10/mapabase_simplificat.jpg" width="250"></td>
+</tr>
+<tr>
+<td>ORTO</td>
+<td><img src="https://icgc-web-pro.s3.eu-central-1.amazonaws.com/produccio/s3fs-public/2024-10/mapabase_orto.jpg" width="250"></td>
+</tr>
+<tr>
+<td>ORTOGREY</td>
+<td><img src="https://icgc-web-pro.s3.eu-central-1.amazonaws.com/produccio/s3fs-public/2024-10/mapabase_orto_gris.jpg" width="250"></td>
+</tr>
+<tr>
+<td>ORTOHYBRID</td>
+<td><img src="https://icgc-web-pro.s3.eu-central-1.amazonaws.com/produccio/s3fs-public/2024-10/mapabase_orto_hibida.jpg" width="250"></td>
 </tr>
 </tbody>
 </table>
