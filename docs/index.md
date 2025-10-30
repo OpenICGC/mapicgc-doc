@@ -19,21 +19,22 @@ La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i p
  * [2.1 Crear mapa i afegir estil](2.1.0.Map.md)
  * [2.2 Afegir terreny](2.1.2.AddICGCTerrain.md)
  * [2.3 Afegir estil ORTO3D](2.1.3.3dStyle.md)
- * [2.4 Afegir control d'estil](2.2.AddBasemap.md)
- * [2.5 Afegir capa d'imatge ICGC](2.3.AddImageLayerICGC.md)
- * [2.6 Afegir capa vector ICGC](2.4.AddVectorLayerICGC.md)
- * [2.7 Afegir capa GeoJSON](2.5.AddLayerGeojson.md)
- * [2.8 Afegir llistat de capes](2.6.AddLayerTree.md)
- * [2.9 Afegir marcador](2.7.AddMarker.md)
- * [2.10 Afegir control](2.8.AddControl.md)
- * [2.11 Afegir comparador](2.9.AddCompare.md)
- * [2.12 Afegir logo](2.10.AddLogo.md)
- * [2.13 Fetch dades](2.11.FetchData.md)
- * [2.14 Fetch dades i crea menú](2.12.FetchDataAndMenu.md)
- * [2.15 Consulta d'elements](2.13.AddFeatureQuery.md)
- * [2.16 Afegir geocodificador ICGC](2.14.AddGeocoderICGC.md)
- * [2.17 Exemple visor](2.20.AdvancedExample.md)
- * [2.18 Reutilització codi Maplibre](2.21.Maplibre2Mapicgc.md)
+ * [2.4 Afegir estil RELIEF](2.1.4.ReliefStyle.md)
+ * [2.5 Afegir control d'estil](2.2.AddBasemap.md)
+ * [2.6 Afegir capa d'imatge ICGC](2.3.AddImageLayerICGC.md)
+ * [2.7 Afegir capa vector ICGC](2.4.AddVectorLayerICGC.md)
+ * [2.8 Afegir capa GeoJSON](2.5.AddLayerGeojson.md)
+ * [2.9 Afegir llistat de capes](2.6.AddLayerTree.md)
+ * [2.10 Afegir marcador](2.7.AddMarker.md)
+ * [2.11 Afegir control](2.8.AddControl.md)
+ * [2.12 Afegir comparador](2.9.AddCompare.md)
+ * [2.13 Afegir logo](2.10.AddLogo.md)
+ * [2.14 Fetch dades](2.11.FetchData.md)
+ * [2.15 Fetch dades i crea menú](2.12.FetchDataAndMenu.md)
+ * [2.16 Consulta d'elements](2.13.AddFeatureQuery.md)
+ * [2.17 Afegir geocodificador ICGC](2.14.AddGeocoderICGC.md)
+ * [2.18 Exemple visor](2.20.AdvancedExample.md)
+ * [2.19 Reutilització codi Maplibre](2.21.Maplibre2Mapicgc.md)
 
 ## Documentació
   * [3.1 Funcions](3.1.Funcions_doc.md)
@@ -49,7 +50,7 @@ La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i p
 
 ## Versionat
 
-* <a target="_blank" href="https://www.npmjs.com/package/mapicgc-gl-js">Versió 1.0.0</a>
+* <a target="_blank" href="https://www.npmjs.com/package/mapicgc-gl-js">Versió 1.0.2</a>
 
 
 ## Autor i contacte

@@ -26,7 +26,7 @@
     
     
       
-        <title>2.18 Reutilització codi Maplibre - MapICGC-gl-js</title>
+        <title>2.19 Reutilització codi Maplibre - MapICGC-gl-js</title>
       
     
     
@@ -123,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              2.18 Reutilització codi Maplibre
+              2.19 Reutilització codi Maplibre
             
           </span>
         </div>
@@ -654,11 +654,32 @@
   
   
     <li class="md-nav__item">
+      <a href="../2.1.4.ReliefStyle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.4 Afegir estil RELIEF
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../2.2.AddBasemap/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    2.4 Afegir control d'estil
+    2.5 Afegir control d'estil
   </span>
   
 
@@ -679,7 +700,7 @@
         
   
   <span class="md-ellipsis">
-    2.5 Afegir capa d'imatge ICGC
+    2.6 Afegir capa d'imatge ICGC
   </span>
   
 
@@ -700,7 +721,7 @@
         
   
   <span class="md-ellipsis">
-    2.6 Afegir capa vector ICGC
+    2.7 Afegir capa vector ICGC
   </span>
   
 
@@ -721,7 +742,7 @@
         
   
   <span class="md-ellipsis">
-    2.7 Afegir capa GeoJSON
+    2.8 Afegir capa GeoJSON
   </span>
   
 
@@ -742,7 +763,7 @@
         
   
   <span class="md-ellipsis">
-    2.8 Afegir llistat de capes
+    2.9 Afegir llistat de capes
   </span>
   
 
@@ -763,7 +784,7 @@
         
   
   <span class="md-ellipsis">
-    2.9 Afegir marker
+    2.10 Afegir marker
   </span>
   
 
@@ -784,7 +805,7 @@
         
   
   <span class="md-ellipsis">
-    2.10 Afegir control
+    2.11 Afegir control
   </span>
   
 
@@ -805,7 +826,7 @@
         
   
   <span class="md-ellipsis">
-    2.11 Afegir comparador
+    2.12 Afegir comparador
   </span>
   
 
@@ -826,7 +847,7 @@
         
   
   <span class="md-ellipsis">
-    2.12 Afegir logo
+    2.13 Afegir logo
   </span>
   
 
@@ -847,7 +868,7 @@
         
   
   <span class="md-ellipsis">
-    2.13 Fetch dades
+    2.14 Fetch dades
   </span>
   
 
@@ -868,7 +889,7 @@
         
   
   <span class="md-ellipsis">
-    2.14 Fetch dades i crea menú
+    2.15 Fetch dades i crea menú
   </span>
   
 
@@ -889,7 +910,7 @@
         
   
   <span class="md-ellipsis">
-    2.15 Consulta d'elements
+    2.16 Consulta d'elements
   </span>
   
 
@@ -910,7 +931,7 @@
         
   
   <span class="md-ellipsis">
-    2.16 Afegir geocodificador ICGC
+    2.17 Afegir geocodificador ICGC
   </span>
   
 
@@ -931,7 +952,7 @@
         
   
   <span class="md-ellipsis">
-    2.17 Exemple visor
+    2.18 Exemple visor
   </span>
   
 
@@ -959,7 +980,7 @@
           
   
   <span class="md-ellipsis">
-    2.18 Reutilització codi Maplibre
+    2.19 Reutilització codi Maplibre
   </span>
   
 
@@ -970,7 +991,7 @@
         
   
   <span class="md-ellipsis">
-    2.18 Reutilització codi Maplibre
+    2.19 Reutilització codi Maplibre
   </span>
   
 
@@ -1153,7 +1174,7 @@
   
 
 
-  <h1>2.18 Reutilització codi Maplibre</h1>
+  <h1>2.19 Reutilització codi Maplibre</h1>
 
 <h2 id="exemple">Exemple</h2>
 <p>Exemple de reutilització d'un codi Maplibre a MapICGC GL JS. Les dades utilitzades provenen de <a target="_blank" href="https://analisi.transparenciacatalunya.cat/Medi-Rural-Pesca/Mapa-d-explotacions-agr-coles-DUN-de-Catalunya/iqpi-zasj/explore/query/SELECT%0A%20%20%60the_geom%60%2C%0A%20%20%60campanya%60%2C%0A%20%20%60oc%60%2C%0A%20%20%60nom_oc%60%2C%0A%20%20%60ajuts%60%2C%0A%20%20%60codi_pro%60%2C%0A%20%20%60nom_pro%60%2C%0A%20%20%60c_mun_ine%60%2C%0A%20%20%60n_mun_ine%60%2C%0A%20%20%60naturalesa%60%2C%0A%20%20%60data_naix%60%2C%0A%20%20%60ote%60%2C%0A%20%20%60opfh%60%2C%0A%20%20%60codi_dop%60%2C%0A%20%20%60venda_prox%60%2C%0A%20%20%60eap%60%2C%0A%20%20%60id_exp%60%2C%0A%20%20%60ha_dec%60%0AWHERE%0A%20%20caseless_one_of%28%60campanya%60%2C%20%222023%22%29%0A%20%20AND%20%28caseless_one_of%28%60naturalesa%60%2C%20%22PF%20Dona%22%29%0A%20%20%20%20%20%20%20%20%20AND%20%28%60data_naix%60%20%3E%20%221990%22%29%29/page/filter">Dades Obertes</a> i representen les explotacions agrícoles de Catalunya a la campanya 2023 gestionades per dones nascudes després del 1990.</p>
