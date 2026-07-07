@@ -50,7 +50,7 @@ La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i p
 
 ## Versionat
 
-* <a target="_blank" href="https://www.npmjs.com/package/mapicgc-gl-js">Versió 1.0.2</a>
+* <a target="_blank" href="https://www.npmjs.com/package/mapicgc-gl-js">Versió 1.0.7</a>
 
 
 ## Autor i contacte
