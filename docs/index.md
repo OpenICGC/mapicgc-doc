@@ -35,6 +35,7 @@ La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i p
  * [2.17 Afegir geocodificador ICGC](2.14.AddGeocoderICGC.md)
  * [2.18 Exemple visor](2.20.AdvancedExample.md)
  * [2.19 Reutilització codi Maplibre](2.21.Maplibre2Mapicgc.md)
+ * [2.20 Afegir funció consulta API Territorial ICGC](2.22.AddApiTerritorialICGC.md)
 
 ## Documentació
   * [3.1 Funcions](3.1.Funcions_doc.md)
@@ -50,7 +51,7 @@ La biblioteca MapICGC GL JS funciona integrant funcionalitats de Maplibre GL i p
 
 ## Versionat
 
-* <a target="_blank" href="https://www.npmjs.com/package/mapicgc-gl-js">Versió 1.0.7</a>
+* <a target="_blank" href="https://www.npmjs.com/package/mapicgc-gl-js">Versió 1.0.8</a>
 
 
 ## Autor i contacte

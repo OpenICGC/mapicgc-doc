@@ -79,6 +79,7 @@ nav:
   - 2.17 Afegir geocodificador ICGC: 2.14.AddGeocoderICGC.md
   - 2.18 Exemple visor: 2.20.AdvancedExample.md
   - 2.19 Reutilització codi Maplibre: 2.21.Maplibre2Mapicgc.md
+  - 2.20 Afegir funció consulta API Territorial ICGC: 2.22.AddApiTerritorialICGC.md
   
 
 - 'Documentació':  
